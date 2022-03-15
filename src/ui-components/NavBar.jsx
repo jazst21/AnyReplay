@@ -8,18 +8,15 @@
 import React from "react";
 import {
   getOverrideProps,
+  useAuth,
+  useAuthSignOutAction,
   useNavigateAction,
 } from "@aws-amplify/ui-react/internal";
-import {
-  Flex,
-  Icon,
-  Image,
-  SearchField,
-  Text,
-  View,
-} from "@aws-amplify/ui-react";
+import { Button, Flex, Icon, Image, Text } from "@aws-amplify/ui-react";
 export default function NavBar(props) {
   const { overrides, ...rest } = props;
+  const authAttributes = useAuth().user?.attributes ?? {};
+  const logoOnClick = useNavigateAction({ type: "url", url: "/" });
   const homeOnClick = useNavigateAction({ type: "url", url: "/" });
   const leaderboardOnClick = useNavigateAction({
     type: "url",
@@ -27,6 +24,7 @@ export default function NavBar(props) {
   });
   const replayOnClick = useNavigateAction({ type: "url", url: "/replay" });
   const aboutOnClick = useNavigateAction({ type: "url", url: "/about" });
+  const buttonOnClick = useAuthSignOutAction({ global: true });
   return (
     <Flex
       gap="20px"
@@ -43,13 +41,16 @@ export default function NavBar(props) {
       <Flex
         gap="2px"
         direction="row"
+        width="254px"
         height="45px"
         justifyContent="center"
         alignItems="center"
         shrink="0"
-        alignSelf="stretch"
         position="relative"
         padding="0px 0px 0px 0px"
+        onClick={() => {
+          logoOnClick();
+        }}
         {...getOverrideProps(overrides, "Logo")}
       >
         <Icon
@@ -82,21 +83,21 @@ export default function NavBar(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="AnyReplay   -   "
-          {...getOverrideProps(overrides, "AnyReplay -")}
+          children="AnyReplay App -"
+          {...getOverrideProps(overrides, "AnyReplay App -")}
         ></Text>
       </Flex>
       <Flex
         gap="40px"
         direction="row"
-        width="594px"
+        width="541px"
         alignItems="center"
         grow="1"
-        basis="594px"
+        basis="541px"
         height="24px"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Frame 321ehn")}
+        {...getOverrideProps(overrides, "Frame 321pxw")}
       >
         <Text
           fontFamily="Inter"
@@ -186,61 +187,37 @@ export default function NavBar(props) {
       <Flex
         gap="32px"
         direction="row"
-        width="594px"
+        width="541px"
         justifyContent="flex-end"
         alignItems="center"
         grow="1"
-        basis="594px"
+        basis="541px"
         height="45px"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Frame 321zlk")}
+        {...getOverrideProps(overrides, "Frame 321pks")}
       >
-        <SearchField
+        <Button
           display="flex"
+          width="fit-content"
           shrink="0"
-          height="40px"
-          placeholder="Placeholder"
+          height="42px"
           size="default"
-          labelHidden={true}
           variation="default"
-          {...getOverrideProps(overrides, "SearchField")}
-        ></SearchField>
-        <View
-          width="24px"
-          height="24px"
-          shrink="0"
-          overflow="hidden"
-          position="relative"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Icon")}
-        >
-          <Icon
-            width="16px"
-            height="19.5px"
-            viewBox={{ minX: 0, minY: 0, width: 16, height: 19.5 }}
-            paths={[
-              {
-                d: "M8 19.5C9.1 19.5 10 18.6 10 17.5L6 17.5C6 18.6 6.9 19.5 8 19.5ZM14 13.5L14 8.5C14 5.43 12.37 2.86 9.5 2.18L9.5 1.5C9.5 0.67 8.83 0 8 0C7.17 0 6.5 0.67 6.5 1.5L6.5 2.18C3.64 2.86 2 5.42 2 8.5L2 13.5L0 15.5L0 16.5L16 16.5L16 15.5L14 13.5ZM12 14.5L4 14.5L4 8.5C4 6.02 5.51 4 8 4C10.49 4 12 6.02 12 8.5L12 14.5Z",
-                fill: "rgba(51,51,51,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            position="absolute"
-            top="10.42%"
-            bottom="8.33%"
-            left="16.67%"
-            right="16.67%"
-            {...getOverrideProps(overrides, "Vector")}
-          ></Icon>
-        </View>
+          children="Sign Out"
+          onClick={() => {
+            buttonOnClick();
+          }}
+          {...getOverrideProps(overrides, "Button")}
+        ></Button>
         <Image
-          width="45px"
+          width="51px"
           height="45px"
           shrink="0"
           position="relative"
           borderRadius="160px"
           padding="0px 0px 0px 0px"
+          src={authAttributes["profile"]}
           {...getOverrideProps(overrides, "image")}
         ></Image>
       </Flex>

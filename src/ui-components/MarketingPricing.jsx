@@ -100,7 +100,7 @@ export default function MarketingPricing(props) {
             size="large"
             variation="primary"
             children="Primary Button"
-            {...getOverrideProps(overrides, "Buttonxox")}
+            {...getOverrideProps(overrides, "Buttonagg")}
           ></Button>
           <Divider
             height="2px"
@@ -109,7 +109,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             size="default"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Divideruhc")}
+            {...getOverrideProps(overrides, "Dividerlqt")}
           ></Divider>
           <Flex
             gap="16px"
@@ -120,7 +120,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 138lou")}
+            {...getOverrideProps(overrides, "Frame 138les")}
           >
             <View
               width="24px"
@@ -129,7 +129,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconrkr")}
+              {...getOverrideProps(overrides, "Iconupz")}
             >
               <Icon
                 width="17.590087890625px"
@@ -152,7 +152,7 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectoruje")}
+                {...getOverrideProps(overrides, "Vectorvdt")}
               ></Icon>
             </View>
             <Text
@@ -175,7 +175,7 @@ export default function MarketingPricing(props) {
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.rru"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.hof"
               )}
             ></Text>
           </Flex>
@@ -188,7 +188,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 139fxk")}
+            {...getOverrideProps(overrides, "Frame 139kpo")}
           >
             <View
               width="24px"
@@ -197,7 +197,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconeus")}
+              {...getOverrideProps(overrides, "Iconlwx")}
             >
               <Icon
                 width="17.590087890625px"
@@ -220,7 +220,7 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorydb")}
+                {...getOverrideProps(overrides, "Vectortug")}
               ></Icon>
             </View>
             <Text
@@ -243,7 +243,7 @@ export default function MarketingPricing(props) {
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.rol"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.brg"
               )}
             ></Text>
           </Flex>
@@ -256,7 +256,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 137bzg")}
+            {...getOverrideProps(overrides, "Frame 137ckk")}
           >
             <View
               width="24px"
@@ -265,7 +265,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconthk")}
+              {...getOverrideProps(overrides, "Iconpdc")}
             >
               <Icon
                 width="17.590087890625px"
@@ -288,7 +288,7 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorxpl")}
+                {...getOverrideProps(overrides, "Vectorfaw")}
               ></Icon>
             </View>
             <Text
@@ -311,7 +311,7 @@ export default function MarketingPricing(props) {
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.kkf"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.zjd"
               )}
             ></Text>
           </Flex>
@@ -380,7 +380,7 @@ export default function MarketingPricing(props) {
             size="large"
             variation="primary"
             children="Primary Button"
-            {...getOverrideProps(overrides, "Buttonqlt")}
+            {...getOverrideProps(overrides, "Buttonqyh")}
           ></Button>
           <Divider
             height="2px"
@@ -389,17 +389,17 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             size="default"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Dividergfm")}
+            {...getOverrideProps(overrides, "Dividerlko")}
           ></Divider>
           <Flex
             gap="16px"
             direction="row"
+            width="fit-content"
             alignItems="flex-start"
             shrink="0"
-            width="224px"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 138sev")}
+            {...getOverrideProps(overrides, "Frame 138snn")}
           >
             <View
               width="24px"
@@ -408,7 +408,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconnmt")}
+              {...getOverrideProps(overrides, "Iconqry")}
             >
               <Icon
                 width="17.590087890625px"
@@ -431,7 +431,7 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectoreya")}
+                {...getOverrideProps(overrides, "Vectorsdm")}
               ></Icon>
             </View>
             <Text
@@ -453,7 +453,7 @@ export default function MarketingPricing(props) {
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.umc"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.qey"
               )}
             ></Text>
           </Flex>
@@ -466,7 +466,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 139zad")}
+            {...getOverrideProps(overrides, "Frame 139muj")}
           >
             <View
               width="24px"
@@ -475,7 +475,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconyxa")}
+              {...getOverrideProps(overrides, "Iconxob")}
             >
               <Icon
                 width="17.590087890625px"
@@ -498,7 +498,7 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectoreha")}
+                {...getOverrideProps(overrides, "Vectorskw")}
               ></Icon>
             </View>
             <Text
@@ -521,19 +521,19 @@ export default function MarketingPricing(props) {
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.hhk"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.lgq"
               )}
             ></Text>
           </Flex>
           <Flex
             gap="16px"
             direction="row"
+            width="fit-content"
             alignItems="flex-start"
             shrink="0"
-            width="224px"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 137nsq")}
+            {...getOverrideProps(overrides, "Frame 137uxu")}
           >
             <View
               width="24px"
@@ -542,7 +542,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconand")}
+              {...getOverrideProps(overrides, "Iconjah")}
             >
               <Icon
                 width="17.590087890625px"
@@ -565,7 +565,7 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorouv")}
+                {...getOverrideProps(overrides, "Vectornov")}
               ></Icon>
             </View>
             <Text
@@ -587,7 +587,7 @@ export default function MarketingPricing(props) {
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.eyu"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.xgm"
               )}
             ></Text>
           </Flex>
@@ -656,7 +656,7 @@ export default function MarketingPricing(props) {
             size="large"
             variation="primary"
             children="Primary Button"
-            {...getOverrideProps(overrides, "Buttonlqv")}
+            {...getOverrideProps(overrides, "Buttonymz")}
           ></Button>
           <Divider
             height="2px"
@@ -665,7 +665,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             size="default"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Dividercjt")}
+            {...getOverrideProps(overrides, "Dividerfdf")}
           ></Divider>
           <Flex
             gap="16px"
@@ -676,7 +676,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 138thx")}
+            {...getOverrideProps(overrides, "Frame 138nss")}
           >
             <View
               width="24px"
@@ -685,7 +685,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Icongun")}
+              {...getOverrideProps(overrides, "Iconygd")}
             >
               <Icon
                 width="17.590087890625px"
@@ -708,7 +708,7 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorfzr")}
+                {...getOverrideProps(overrides, "Vectoruyn")}
               ></Icon>
             </View>
             <Text
@@ -731,7 +731,7 @@ export default function MarketingPricing(props) {
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.zvk"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.tfw"
               )}
             ></Text>
           </Flex>
@@ -744,7 +744,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 139puh")}
+            {...getOverrideProps(overrides, "Frame 139emo")}
           >
             <View
               width="24px"
@@ -753,7 +753,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconiyf")}
+              {...getOverrideProps(overrides, "Iconhhm")}
             >
               <Icon
                 width="17.590087890625px"
@@ -776,7 +776,7 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorbji")}
+                {...getOverrideProps(overrides, "Vectorten")}
               ></Icon>
             </View>
             <Text
@@ -799,7 +799,7 @@ export default function MarketingPricing(props) {
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.bcn"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.wui"
               )}
             ></Text>
           </Flex>
@@ -812,7 +812,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 137ggd")}
+            {...getOverrideProps(overrides, "Frame 137ufb")}
           >
             <View
               width="24px"
@@ -821,7 +821,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconvkb")}
+              {...getOverrideProps(overrides, "Iconexw")}
             >
               <Icon
                 width="17.590087890625px"
@@ -844,7 +844,7 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorsjf")}
+                {...getOverrideProps(overrides, "Vectorjui")}
               ></Icon>
             </View>
             <Text
@@ -867,7 +867,7 @@ export default function MarketingPricing(props) {
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.jfk"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.sel"
               )}
             ></Text>
           </Flex>
@@ -936,7 +936,7 @@ export default function MarketingPricing(props) {
             size="large"
             variation="primary"
             children="Primary Button"
-            {...getOverrideProps(overrides, "Buttonpvv")}
+            {...getOverrideProps(overrides, "Buttonzhv")}
           ></Button>
           <Divider
             height="2px"
@@ -945,7 +945,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             size="default"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Dividerict")}
+            {...getOverrideProps(overrides, "Dividershs")}
           ></Divider>
           <Flex
             gap="16px"
@@ -956,7 +956,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 138vsr")}
+            {...getOverrideProps(overrides, "Frame 138ypj")}
           >
             <View
               width="24px"
@@ -965,7 +965,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconyrj")}
+              {...getOverrideProps(overrides, "Iconlup")}
             >
               <Icon
                 width="17.590087890625px"
@@ -988,7 +988,7 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorpll")}
+                {...getOverrideProps(overrides, "Vectornvu")}
               ></Icon>
             </View>
             <Text
@@ -1011,7 +1011,7 @@ export default function MarketingPricing(props) {
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.fxk"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.vwu"
               )}
             ></Text>
           </Flex>
@@ -1024,7 +1024,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 139wfx")}
+            {...getOverrideProps(overrides, "Frame 139ltc")}
           >
             <View
               width="24px"
@@ -1033,7 +1033,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconwsk")}
+              {...getOverrideProps(overrides, "Iconmgy")}
             >
               <Icon
                 width="17.590087890625px"
@@ -1056,7 +1056,7 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectortbr")}
+                {...getOverrideProps(overrides, "Vectorvmz")}
               ></Icon>
             </View>
             <Text
@@ -1079,7 +1079,7 @@ export default function MarketingPricing(props) {
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.tdn"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.jxw"
               )}
             ></Text>
           </Flex>
@@ -1092,7 +1092,7 @@ export default function MarketingPricing(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 137jww")}
+            {...getOverrideProps(overrides, "Frame 137vjy")}
           >
             <View
               width="24px"
@@ -1101,7 +1101,7 @@ export default function MarketingPricing(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconyep")}
+              {...getOverrideProps(overrides, "Iconcgm")}
             >
               <Icon
                 width="17.590087890625px"
@@ -1124,7 +1124,7 @@ export default function MarketingPricing(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorsjv")}
+                {...getOverrideProps(overrides, "Vectorloe")}
               ></Icon>
             </View>
             <Text
@@ -1147,7 +1147,7 @@ export default function MarketingPricing(props) {
               children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
               {...getOverrideProps(
                 overrides,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.hlx"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.hfh"
               )}
             ></Text>
           </Flex>

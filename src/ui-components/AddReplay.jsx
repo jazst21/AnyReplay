@@ -6,12 +6,7 @@
 
 /* eslint-disable */
 import React from "react";
-import {
-  getOverrideProps,
-  useDataStoreCreateAction,
-  useStateMutationAction,
-} from "@aws-amplify/ui-react/internal";
-import { Replay } from "../models";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import {
   Button,
   Divider,
@@ -24,17 +19,6 @@ import {
 } from "@aws-amplify/ui-react";
 export default function AddReplay(props) {
   const { replay, overrides, ...rest } = props;
-  const [textFieldgrvValue, setTextFieldgrvValue] = useStateMutationAction("");
-  const [textFieldxxaValue, setTextFieldxxaValue] = useStateMutationAction("");
-  const [textFieldeerValue, setTextFieldeerValue] = useStateMutationAction("");
-  const buttonOnClick = useDataStoreCreateAction({
-    fields: {
-      teamA: textFieldgrvValue,
-      teamB: textFieldxxaValue,
-      image_url_replay: textFieldeerValue,
-    },
-    model: Replay,
-  });
   return (
     <Flex
       gap="10px"
@@ -118,7 +102,7 @@ export default function AddReplay(props) {
           objectFit="cover"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Dividermic")}
+          {...getOverrideProps(overrides, "Dividerkrz")}
         ></Divider>
         <Flex
           gap="16px"
@@ -178,11 +162,7 @@ export default function AddReplay(props) {
             objectFit="cover"
             size="default"
             variation="default"
-            value={textFieldgrvValue}
-            onChange={(event) => {
-              setTextFieldgrvValue(event.target.value);
-            }}
-            {...getOverrideProps(overrides, "TextFieldgrv")}
+            {...getOverrideProps(overrides, "TextFieldhxz")}
           ></TextField>
           <TextField
             label="Team B"
@@ -193,11 +173,7 @@ export default function AddReplay(props) {
             objectFit="cover"
             size="default"
             variation="default"
-            value={textFieldxxaValue}
-            onChange={(event) => {
-              setTextFieldxxaValue(event.target.value);
-            }}
-            {...getOverrideProps(overrides, "TextFieldxxa")}
+            {...getOverrideProps(overrides, "TextFieldmxf")}
           ></TextField>
           <TextField
             label="Video Replay"
@@ -208,26 +184,19 @@ export default function AddReplay(props) {
             objectFit="cover"
             size="default"
             variation="default"
-            value={textFieldeerValue}
-            onChange={(event) => {
-              setTextFieldeerValue(event.target.value);
-            }}
-            {...getOverrideProps(overrides, "TextFieldeer")}
+            {...getOverrideProps(overrides, "TextFieldnvl")}
           ></TextField>
           <Button
             border="1px SOLID rgba(0,0,0,0)"
             borderRadius="4px"
             padding="7px 15px 7px 15px"
             display="flex"
+            width="fit-content"
             shrink="0"
-            width="71px"
             backgroundColor="rgba(4,125,149,1)"
             size="default"
             variation="primary"
             children="Save"
-            onClick={() => {
-              buttonOnClick();
-            }}
             {...getOverrideProps(overrides, "Button")}
           ></Button>
         </Flex>
@@ -237,7 +206,7 @@ export default function AddReplay(props) {
           objectFit="cover"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Dividerpkh")}
+          {...getOverrideProps(overrides, "Divideretj")}
         ></Divider>
       </Flex>
     </Flex>

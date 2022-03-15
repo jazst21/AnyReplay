@@ -37,7 +37,6 @@ export default function ProfileA(props) {
         direction="column"
         alignItems="center"
         shrink="0"
-        width="254px"
         position="relative"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "Name")}
@@ -81,9 +80,9 @@ export default function ProfileA(props) {
       <Flex
         gap="16px"
         direction="row"
+        width="fit-content"
         alignItems="flex-start"
         shrink="0"
-        width="138px"
         position="relative"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "Followers")}

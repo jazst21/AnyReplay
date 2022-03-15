@@ -44,7 +44,7 @@ export default function SideBar(props) {
           objectFit="cover"
           position="relative"
           padding="0px 32px 0px 32px"
-          {...getOverrideProps(overrides, "Frame 321wrk")}
+          {...getOverrideProps(overrides, "Frame 321xdr")}
         >
           <View
             height="80px"
@@ -60,7 +60,6 @@ export default function SideBar(props) {
             gap="16px"
             direction="column"
             shrink="0"
-            width="140px"
             position="relative"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(overrides, "Frame 414")}
@@ -80,17 +79,17 @@ export default function SideBar(props) {
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="ORGANIZATION"
-              {...getOverrideProps(overrides, "ORGANIZATIONzpy")}
+              {...getOverrideProps(overrides, "ORGANIZATIONkze")}
             ></Text>
             <Flex
               gap="16px"
               direction="row"
+              width="fit-content"
               alignItems="center"
               shrink="0"
-              width="140px"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Frame 321pgo")}
+              {...getOverrideProps(overrides, "Frame 321vba")}
             >
               <View
                 width="24px"
@@ -99,7 +98,7 @@ export default function SideBar(props) {
                 overflow="hidden"
                 position="relative"
                 padding="0px 0px 0px 0px"
-                {...getOverrideProps(overrides, "Iconixe")}
+                {...getOverrideProps(overrides, "Iconeda")}
               >
                 <Icon
                   width="20px"
@@ -117,7 +116,7 @@ export default function SideBar(props) {
                   bottom="16.67%"
                   left="8.33%"
                   right="8.33%"
-                  {...getOverrideProps(overrides, "Vectorymh")}
+                  {...getOverrideProps(overrides, "Vectorejk")}
                 ></Icon>
               </View>
               <Text
@@ -136,15 +135,15 @@ export default function SideBar(props) {
                 padding="0px 0px 0px 0px"
                 whiteSpace="pre-wrap"
                 children="Lorem Ipsum"
-                {...getOverrideProps(overrides, "Lorem Ipsumtue")}
+                {...getOverrideProps(overrides, "Lorem Ipsumgke")}
               ></Text>
             </Flex>
             <Flex
               gap="16px"
               direction="row"
+              width="fit-content"
               alignItems="center"
               shrink="0"
-              width="140px"
               position="relative"
               padding="0px 0px 0px 0px"
               {...getOverrideProps(overrides, "Frame 322")}
@@ -156,7 +155,7 @@ export default function SideBar(props) {
                 overflow="hidden"
                 position="relative"
                 padding="0px 0px 0px 0px"
-                {...getOverrideProps(overrides, "Iconhtn")}
+                {...getOverrideProps(overrides, "Icondkf")}
               >
                 <Icon
                   width="20px"
@@ -174,7 +173,7 @@ export default function SideBar(props) {
                   bottom="16.67%"
                   left="8.33%"
                   right="8.33%"
-                  {...getOverrideProps(overrides, "Vectorxkq")}
+                  {...getOverrideProps(overrides, "Vectorfbx")}
                 ></Icon>
               </View>
               <Text
@@ -193,7 +192,7 @@ export default function SideBar(props) {
                 padding="0px 0px 0px 0px"
                 whiteSpace="pre-wrap"
                 children="Lorem Ipsum"
-                {...getOverrideProps(overrides, "Lorem Ipsumflj")}
+                {...getOverrideProps(overrides, "Lorem Ipsumnvr")}
               ></Text>
             </Flex>
           </Flex>
@@ -201,10 +200,9 @@ export default function SideBar(props) {
             gap="16px"
             direction="column"
             shrink="0"
-            width="140px"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frame 321uib")}
+            {...getOverrideProps(overrides, "Frame 321wjh")}
           >
             <Text
               fontFamily="Inter"
@@ -221,13 +219,12 @@ export default function SideBar(props) {
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="ORGANIZATION"
-              {...getOverrideProps(overrides, "ORGANIZATIONdmz")}
+              {...getOverrideProps(overrides, "ORGANIZATIONneb")}
             ></Text>
             <Flex
               gap="16px"
               direction="column"
               shrink="0"
-              width="140px"
               position="relative"
               padding="0px 0px 0px 0px"
               {...getOverrideProps(overrides, "Frame 413")}
@@ -235,9 +232,9 @@ export default function SideBar(props) {
               <Flex
                 gap="16px"
                 direction="row"
+                width="fit-content"
                 alignItems="center"
                 shrink="0"
-                width="140px"
                 position="relative"
                 padding="0px 0px 0px 0px"
                 {...getOverrideProps(overrides, "Frame 323")}
@@ -249,7 +246,7 @@ export default function SideBar(props) {
                   overflow="hidden"
                   position="relative"
                   padding="0px 0px 0px 0px"
-                  {...getOverrideProps(overrides, "Iconoiv")}
+                  {...getOverrideProps(overrides, "Iconktz")}
                 >
                   <Icon
                     width="20px"
@@ -267,7 +264,7 @@ export default function SideBar(props) {
                     bottom="16.67%"
                     left="8.33%"
                     right="8.33%"
-                    {...getOverrideProps(overrides, "Vectorwto")}
+                    {...getOverrideProps(overrides, "Vectormrd")}
                   ></Icon>
                 </View>
                 <Text
@@ -286,15 +283,15 @@ export default function SideBar(props) {
                   padding="0px 0px 0px 0px"
                   whiteSpace="pre-wrap"
                   children="Lorem Ipsum"
-                  {...getOverrideProps(overrides, "Lorem Ipsumtgi")}
+                  {...getOverrideProps(overrides, "Lorem Ipsumlmw")}
                 ></Text>
               </Flex>
               <Flex
                 gap="16px"
                 direction="row"
+                width="fit-content"
                 alignItems="center"
                 shrink="0"
-                width="140px"
                 position="relative"
                 padding="0px 0px 0px 0px"
                 {...getOverrideProps(overrides, "Frame 324")}
@@ -306,7 +303,7 @@ export default function SideBar(props) {
                   overflow="hidden"
                   position="relative"
                   padding="0px 0px 0px 0px"
-                  {...getOverrideProps(overrides, "Iconkfg")}
+                  {...getOverrideProps(overrides, "Iconyea")}
                 >
                   <Icon
                     width="20px"
@@ -324,7 +321,7 @@ export default function SideBar(props) {
                     bottom="16.67%"
                     left="8.33%"
                     right="8.33%"
-                    {...getOverrideProps(overrides, "Vectorylh")}
+                    {...getOverrideProps(overrides, "Vectorniy")}
                   ></Icon>
                 </View>
                 <Text
@@ -343,15 +340,15 @@ export default function SideBar(props) {
                   padding="0px 0px 0px 0px"
                   whiteSpace="pre-wrap"
                   children="Lorem Ipsum"
-                  {...getOverrideProps(overrides, "Lorem Ipsumcjk")}
+                  {...getOverrideProps(overrides, "Lorem Ipsumrma")}
                 ></Text>
               </Flex>
               <Flex
                 gap="16px"
                 direction="row"
+                width="fit-content"
                 alignItems="center"
                 shrink="0"
-                width="140px"
                 position="relative"
                 padding="0px 0px 0px 0px"
                 {...getOverrideProps(overrides, "Frame 325")}
@@ -363,7 +360,7 @@ export default function SideBar(props) {
                   overflow="hidden"
                   position="relative"
                   padding="0px 0px 0px 0px"
-                  {...getOverrideProps(overrides, "Iconjeq")}
+                  {...getOverrideProps(overrides, "Iconkgt")}
                 >
                   <Icon
                     width="20px"
@@ -381,7 +378,7 @@ export default function SideBar(props) {
                     bottom="16.67%"
                     left="8.33%"
                     right="8.33%"
-                    {...getOverrideProps(overrides, "Vectorwno")}
+                    {...getOverrideProps(overrides, "Vectorxqd")}
                   ></Icon>
                 </View>
                 <Text
@@ -400,15 +397,15 @@ export default function SideBar(props) {
                   padding="0px 0px 0px 0px"
                   whiteSpace="pre-wrap"
                   children="Lorem Ipsum"
-                  {...getOverrideProps(overrides, "Lorem Ipsumchx")}
+                  {...getOverrideProps(overrides, "Lorem Ipsumgjo")}
                 ></Text>
               </Flex>
               <Flex
                 gap="16px"
                 direction="row"
+                width="fit-content"
                 alignItems="center"
                 shrink="0"
-                width="140px"
                 position="relative"
                 padding="0px 0px 0px 0px"
                 {...getOverrideProps(overrides, "Frame 326")}
@@ -420,7 +417,7 @@ export default function SideBar(props) {
                   overflow="hidden"
                   position="relative"
                   padding="0px 0px 0px 0px"
-                  {...getOverrideProps(overrides, "Iconosu")}
+                  {...getOverrideProps(overrides, "Iconqun")}
                 >
                   <Icon
                     width="20px"
@@ -438,7 +435,7 @@ export default function SideBar(props) {
                     bottom="16.67%"
                     left="8.33%"
                     right="8.33%"
-                    {...getOverrideProps(overrides, "Vectorxil")}
+                    {...getOverrideProps(overrides, "Vectorgcr")}
                   ></Icon>
                 </View>
                 <Text
@@ -457,15 +454,15 @@ export default function SideBar(props) {
                   padding="0px 0px 0px 0px"
                   whiteSpace="pre-wrap"
                   children="Lorem Ipsum"
-                  {...getOverrideProps(overrides, "Lorem Ipsumlxk")}
+                  {...getOverrideProps(overrides, "Lorem Ipsumhxq")}
                 ></Text>
               </Flex>
               <Flex
                 gap="16px"
                 direction="row"
+                width="fit-content"
                 alignItems="center"
                 shrink="0"
-                width="140px"
                 position="relative"
                 padding="0px 0px 0px 0px"
                 {...getOverrideProps(overrides, "Frame 327")}
@@ -477,7 +474,7 @@ export default function SideBar(props) {
                   overflow="hidden"
                   position="relative"
                   padding="0px 0px 0px 0px"
-                  {...getOverrideProps(overrides, "Icontjz")}
+                  {...getOverrideProps(overrides, "Iconeiq")}
                 >
                   <Icon
                     width="20px"
@@ -495,7 +492,7 @@ export default function SideBar(props) {
                     bottom="16.67%"
                     left="8.33%"
                     right="8.33%"
-                    {...getOverrideProps(overrides, "Vectorkyt")}
+                    {...getOverrideProps(overrides, "Vectorlfn")}
                   ></Icon>
                 </View>
                 <Text
@@ -514,15 +511,15 @@ export default function SideBar(props) {
                   padding="0px 0px 0px 0px"
                   whiteSpace="pre-wrap"
                   children="Lorem Ipsum"
-                  {...getOverrideProps(overrides, "Lorem Ipsumqxr")}
+                  {...getOverrideProps(overrides, "Lorem Ipsumwmv")}
                 ></Text>
               </Flex>
               <Flex
                 gap="16px"
                 direction="row"
+                width="fit-content"
                 alignItems="center"
                 shrink="0"
-                width="140px"
                 position="relative"
                 padding="0px 0px 0px 0px"
                 {...getOverrideProps(overrides, "Frame 328")}
@@ -534,7 +531,7 @@ export default function SideBar(props) {
                   overflow="hidden"
                   position="relative"
                   padding="0px 0px 0px 0px"
-                  {...getOverrideProps(overrides, "Iconqcq")}
+                  {...getOverrideProps(overrides, "Iconhom")}
                 >
                   <Icon
                     width="20px"
@@ -552,7 +549,7 @@ export default function SideBar(props) {
                     bottom="16.67%"
                     left="8.33%"
                     right="8.33%"
-                    {...getOverrideProps(overrides, "Vectorhum")}
+                    {...getOverrideProps(overrides, "Vectorxhh")}
                   ></Icon>
                 </View>
                 <Text
@@ -571,15 +568,15 @@ export default function SideBar(props) {
                   padding="0px 0px 0px 0px"
                   whiteSpace="pre-wrap"
                   children="Lorem Ipsum"
-                  {...getOverrideProps(overrides, "Lorem Ipsumgst")}
+                  {...getOverrideProps(overrides, "Lorem Ipsumkhz")}
                 ></Text>
               </Flex>
               <Flex
                 gap="16px"
                 direction="row"
+                width="fit-content"
                 alignItems="center"
                 shrink="0"
-                width="140px"
                 position="relative"
                 padding="0px 0px 0px 0px"
                 {...getOverrideProps(overrides, "Frame 329")}
@@ -591,7 +588,7 @@ export default function SideBar(props) {
                   overflow="hidden"
                   position="relative"
                   padding="0px 0px 0px 0px"
-                  {...getOverrideProps(overrides, "Icondng")}
+                  {...getOverrideProps(overrides, "Iconecb")}
                 >
                   <Icon
                     width="20px"
@@ -609,7 +606,7 @@ export default function SideBar(props) {
                     bottom="16.67%"
                     left="8.33%"
                     right="8.33%"
-                    {...getOverrideProps(overrides, "Vectorfis")}
+                    {...getOverrideProps(overrides, "Vectoriyj")}
                   ></Icon>
                 </View>
                 <Text
@@ -628,15 +625,15 @@ export default function SideBar(props) {
                   padding="0px 0px 0px 0px"
                   whiteSpace="pre-wrap"
                   children="Lorem Ipsum"
-                  {...getOverrideProps(overrides, "Lorem Ipsumznc")}
+                  {...getOverrideProps(overrides, "Lorem Ipsummkt")}
                 ></Text>
               </Flex>
               <Flex
                 gap="16px"
                 direction="row"
+                width="fit-content"
                 alignItems="center"
                 shrink="0"
-                width="140px"
                 position="relative"
                 padding="0px 0px 0px 0px"
                 {...getOverrideProps(overrides, "Frame 330")}
@@ -648,7 +645,7 @@ export default function SideBar(props) {
                   overflow="hidden"
                   position="relative"
                   padding="0px 0px 0px 0px"
-                  {...getOverrideProps(overrides, "Iconjla")}
+                  {...getOverrideProps(overrides, "Iconqjm")}
                 >
                   <Icon
                     width="20px"
@@ -666,7 +663,7 @@ export default function SideBar(props) {
                     bottom="16.67%"
                     left="8.33%"
                     right="8.33%"
-                    {...getOverrideProps(overrides, "Vectormpb")}
+                    {...getOverrideProps(overrides, "Vectoroll")}
                   ></Icon>
                 </View>
                 <Text
@@ -685,7 +682,7 @@ export default function SideBar(props) {
                   padding="0px 0px 0px 0px"
                   whiteSpace="pre-wrap"
                   children="Lorem Ipsum"
-                  {...getOverrideProps(overrides, "Lorem Ipsumffm")}
+                  {...getOverrideProps(overrides, "Lorem Ipsumzla")}
                 ></Text>
               </Flex>
             </Flex>
@@ -697,10 +694,9 @@ export default function SideBar(props) {
           height="81px"
           justifyContent="flex-end"
           shrink="0"
-          width="385px"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Frame 321kzs")}
+          {...getOverrideProps(overrides, "Frame 321aar")}
         >
           <Divider
             width="385px"
@@ -749,7 +745,7 @@ export default function SideBar(props) {
                 height="48px"
                 position="relative"
                 padding="0px 0px 0px 0px"
-                {...getOverrideProps(overrides, "Frame 321hww")}
+                {...getOverrideProps(overrides, "Frame 321lwz")}
               >
                 <Text
                   fontFamily="Inter"
@@ -769,7 +765,7 @@ export default function SideBar(props) {
                   padding="0px 0px 0px 0px"
                   whiteSpace="pre-wrap"
                   children="Lorem Ipsum"
-                  {...getOverrideProps(overrides, "Lorem Ipsumooe")}
+                  {...getOverrideProps(overrides, "Lorem Ipsumlxy")}
                 ></Text>
                 <Text
                   fontFamily="Inter"
@@ -788,7 +784,7 @@ export default function SideBar(props) {
                   padding="0px 0px 0px 0px"
                   whiteSpace="pre-wrap"
                   children="Lorem Ipsum"
-                  {...getOverrideProps(overrides, "Lorem Ipsumuww")}
+                  {...getOverrideProps(overrides, "Lorem Ipsumvix")}
                 ></Text>
               </Flex>
             </Flex>

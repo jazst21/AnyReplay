@@ -5,8 +5,8 @@
  **************************************************************************/
 
 import React from "react";
-import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { Replay } from "../models";
+import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { FlexProps } from "@aws-amplify/ui-react";
 export declare type AddReplayProps = React.PropsWithChildren<Partial<FlexProps> & {
     replay?: Replay;

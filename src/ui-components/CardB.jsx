@@ -8,16 +8,29 @@
 import React from "react";
 import {
   getOverrideProps,
+  useAuth,
+  useDataStoreCreateAction,
   useDataStoreUpdateAction,
+  useStateMutationAction,
 } from "@aws-amplify/ui-react/internal";
-import { Replay } from "../models";
+import { Comments, Replay } from "../models";
 import { Button, Flex, Image, Text, TextField } from "@aws-amplify/ui-react";
 export default function CardB(props) {
   const { replay, overrides, ...rest } = props;
-  const buttonzjsOnClick = useDataStoreUpdateAction({
+  const authAttributes = useAuth().user?.attributes ?? {};
+  const [textFieldValue, setTextFieldValue] = useStateMutationAction("");
+  const buttonzrdOnClick = useDataStoreUpdateAction({
     fields: { rating: replay?.rating+1 },
     id: replay?.id,
     model: Replay,
+  });
+  const buttonrjdOnClick = useDataStoreCreateAction({
+    fields: {
+      replay_id: authAttributes["name"],
+      username: authAttributes["name"],
+      comment: textFieldValue,
+    },
+    model: Comments,
   });
   return (
     <Flex
@@ -157,9 +170,9 @@ export default function CardB(props) {
               variation="default"
               children="Like"
               onClick={() => {
-                buttonzjsOnClick();
+                buttonzrdOnClick();
               }}
-              {...getOverrideProps(overrides, "Buttonzjs")}
+              {...getOverrideProps(overrides, "Buttonzrd")}
             ></Button>
             <TextField
               width="183px"
@@ -170,6 +183,10 @@ export default function CardB(props) {
               size="small"
               labelHidden={true}
               variation="default"
+              value={textFieldValue}
+              onChange={(event) => {
+                setTextFieldValue(event.target.value);
+              }}
               {...getOverrideProps(overrides, "TextField")}
             ></TextField>
             <Button
@@ -181,7 +198,10 @@ export default function CardB(props) {
               size="small"
               variation="default"
               children="Post"
-              {...getOverrideProps(overrides, "Buttoniys")}
+              onClick={() => {
+                buttonrjdOnClick();
+              }}
+              {...getOverrideProps(overrides, "Buttonrjd")}
             ></Button>
           </Flex>
         </Flex>

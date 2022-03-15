@@ -49,7 +49,7 @@ export default function EditProfile(props) {
           objectFit="cover"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Edit Profileanz")}
+          {...getOverrideProps(overrides, "Edit Profileaqx")}
         >
           <View
             width="24px"
@@ -94,7 +94,7 @@ export default function EditProfile(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Edit Profile"
-            {...getOverrideProps(overrides, "Edit Profileqlo")}
+            {...getOverrideProps(overrides, "Edit Profilelfl")}
           ></Text>
         </Flex>
         <Divider
@@ -103,7 +103,7 @@ export default function EditProfile(props) {
           objectFit="cover"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Dividergph")}
+          {...getOverrideProps(overrides, "Divideryiv")}
         ></Divider>
         <Flex
           gap="16px"
@@ -163,7 +163,7 @@ export default function EditProfile(props) {
             objectFit="cover"
             size="default"
             variation="default"
-            {...getOverrideProps(overrides, "TextFieldawe")}
+            {...getOverrideProps(overrides, "TextFieldeoq")}
           ></TextField>
           <TextField
             label="location"
@@ -174,7 +174,7 @@ export default function EditProfile(props) {
             objectFit="cover"
             size="default"
             variation="default"
-            {...getOverrideProps(overrides, "TextFieldmkx")}
+            {...getOverrideProps(overrides, "TextFieldnbv")}
           ></TextField>
           <TextField
             label="email"
@@ -185,7 +185,7 @@ export default function EditProfile(props) {
             objectFit="cover"
             size="default"
             variation="default"
-            {...getOverrideProps(overrides, "TextFieldapm")}
+            {...getOverrideProps(overrides, "TextFieldbeo")}
           ></TextField>
         </Flex>
         <Divider
@@ -194,15 +194,15 @@ export default function EditProfile(props) {
           objectFit="cover"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Dividerbre")}
+          {...getOverrideProps(overrides, "Divideruel")}
         ></Divider>
         <Button
           border="1px SOLID rgba(0,0,0,0)"
           borderRadius="4px"
           padding="7px 15px 7px 15px"
           display="flex"
+          width="fit-content"
           shrink="0"
-          width="71px"
           backgroundColor="rgba(4,125,149,1)"
           size="default"
           variation="primary"

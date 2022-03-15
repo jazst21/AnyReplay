@@ -94,15 +94,15 @@ export default function HeroLayout4(props) {
           children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           {...getOverrideProps(
             overrides,
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.fmn"
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.deu"
           )}
         ></Text>
         <Flex
           gap="8px"
           direction="row"
+          width="fit-content"
           alignItems="flex-start"
           shrink="0"
-          width="458px"
           position="relative"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "Form")}
@@ -122,6 +122,7 @@ export default function HeroLayout4(props) {
             borderRadius="4px"
             padding="7px 15px 7px 15px"
             display="flex"
+            width="fit-content"
             shrink="0"
             height="40px"
             backgroundColor="rgba(4,125,149,1)"
@@ -150,7 +151,7 @@ export default function HeroLayout4(props) {
           children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           {...getOverrideProps(
             overrides,
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.xil"
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.yod"
           )}
         ></Text>
       </Flex>

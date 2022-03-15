@@ -83,9 +83,9 @@ export default function ContactUs(props) {
       <Flex
         gap="16px"
         direction="row"
+        width="fit-content"
         alignItems="flex-start"
         shrink="0"
-        width="333px"
         position="relative"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "Frame 24")}
@@ -152,7 +152,7 @@ export default function ContactUs(props) {
         placeholder="Placeholder"
         size="large"
         variation="default"
-        {...getOverrideProps(overrides, "SelectFieldlfa")}
+        {...getOverrideProps(overrides, "SelectFieldmti")}
       ></SelectField>
       <TextField
         gap="12px"
@@ -164,7 +164,7 @@ export default function ContactUs(props) {
         placeholder="Placeholder"
         size="large"
         variation="default"
-        {...getOverrideProps(overrides, "TextFieldpgo")}
+        {...getOverrideProps(overrides, "TextFieldxya")}
       ></TextField>
       <SelectField
         gap="12px"
@@ -176,7 +176,7 @@ export default function ContactUs(props) {
         placeholder="Placeholder"
         size="large"
         variation="default"
-        {...getOverrideProps(overrides, "SelectFieldihk")}
+        {...getOverrideProps(overrides, "SelectFieldnel")}
       ></SelectField>
       <TextField
         gap="12px"
@@ -188,7 +188,7 @@ export default function ContactUs(props) {
         placeholder="Placeholder"
         size="large"
         variation="default"
-        {...getOverrideProps(overrides, "TextFieldbks")}
+        {...getOverrideProps(overrides, "TextFieldnnp")}
       ></TextField>
       <TextField
         gap="12px"
@@ -200,7 +200,7 @@ export default function ContactUs(props) {
         placeholder="Placeholder"
         size="large"
         variation="default"
-        {...getOverrideProps(overrides, "TextFieldmvk")}
+        {...getOverrideProps(overrides, "TextFieldork")}
       ></TextField>
       <Button
         border="1px SOLID rgba(0,0,0,0)"
@@ -219,22 +219,23 @@ export default function ContactUs(props) {
       <Flex
         gap="24px"
         direction="row"
+        width="fit-content"
         alignItems="flex-start"
         shrink="0"
-        width="201px"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Frame 28ohf")}
+        {...getOverrideProps(overrides, "Frame 28ymo")}
       >
         <Flex
           gap="8px"
           direction="row"
+          width="fit-content"
           alignItems="center"
           shrink="0"
           height="24px"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Frame 28iuu")}
+          {...getOverrideProps(overrides, "Frame 28uxf")}
         >
           <View
             width="24px"
@@ -243,7 +244,7 @@ export default function ContactUs(props) {
             overflow="hidden"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Iconyaw")}
+            {...getOverrideProps(overrides, "Iconflv")}
           >
             <Icon
               width="20px"
@@ -261,7 +262,7 @@ export default function ContactUs(props) {
               bottom="8.33%"
               left="8.33%"
               right="8.33%"
-              {...getOverrideProps(overrides, "Vectorbej")}
+              {...getOverrideProps(overrides, "Vectorqdo")}
             ></Icon>
           </View>
           <Text
@@ -285,6 +286,7 @@ export default function ContactUs(props) {
         <Flex
           gap="8px"
           direction="row"
+          width="fit-content"
           alignItems="center"
           shrink="0"
           height="24px"
@@ -299,7 +301,7 @@ export default function ContactUs(props) {
             overflow="hidden"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Iconhpp")}
+            {...getOverrideProps(overrides, "Iconndg")}
           >
             <Icon
               width="15px"
@@ -317,7 +319,7 @@ export default function ContactUs(props) {
               bottom="12.5%"
               left="20.83%"
               right="16.67%"
-              {...getOverrideProps(overrides, "Vectorhvv")}
+              {...getOverrideProps(overrides, "Vectorzkp")}
             ></Icon>
           </View>
           <Text

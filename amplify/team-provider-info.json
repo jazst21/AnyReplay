@@ -10,6 +10,11 @@
       "StackName": "amplify-anyreplay-staging-44252",
       "StackId": "arn:aws:cloudformation:ap-southeast-1:640083250120:stack/amplify-anyreplay-staging-44252/5fe8ccc0-a41a-11ec-a670-06314128d28c",
       "AmplifyAppId": "d1zd5s9luvtq7k"
+    },
+    "categories": {
+      "auth": {
+        "AnyReplay": {}
+      }
     }
   }
 }
