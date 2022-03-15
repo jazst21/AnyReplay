@@ -1,0 +1,19 @@
+type Comments @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  replay_id: String
+  comment: String
+  username: String
+}
+
+type Replay @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  teamA: String
+  teamB: String
+  scoreA: Int
+  scoreB: Int
+  video_url_replay: AWSURL
+  image_url_replay: AWSURL
+  date: AWSDate
+  rating: Int
+}
+ 
