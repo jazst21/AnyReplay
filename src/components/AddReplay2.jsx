@@ -17,24 +17,8 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
-import Amplify, { Storage } from 'aws-amplify';
-import awsconfig from '../aws-exports';
-Amplify.configure(awsconfig);
-
-export default function AddReplay(props) {
+export default function AddReplay2(props) {
   const { replay, overrides, ...rest } = props;
-  //
-  async function onChange(e) {
-    const file = e.target.files[0];
-    try {
-      await Storage.put(file.name, file, {
-        level: "private",
-        contentType: "image/png", // contentType is optional
-      });
-    } catch (error) {
-      console.log("Error uploading file: ", error);
-    }
-  }
   return (
     <Flex
       gap="10px"
@@ -180,7 +164,6 @@ export default function AddReplay(props) {
             variation="default"
             {...getOverrideProps(overrides, "TextFieldhxz")}
           ></TextField>
-          <input type="file" onChange={onChange} />,
           <TextField
             label="Team B"
             placeholder="Seattle, WA"
