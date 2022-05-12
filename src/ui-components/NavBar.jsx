@@ -18,11 +18,10 @@ export default function NavBar(props) {
   const authAttributes = useAuth().user?.attributes ?? {};
   const logoOnClick = useNavigateAction({ type: "url", url: "/" });
   const homeOnClick = useNavigateAction({ type: "url", url: "/" });
-  const leaderboardOnClick = useNavigateAction({
-    type: "url",
-    url: "/leaderboard",
-  });
-  const replayOnClick = useNavigateAction({ type: "url", url: "/replay" });
+  const gameOnClick = useNavigateAction({ type: "url", url: "/game" });
+  const scheduleOnClick = useNavigateAction({ type: "url", url: "/schedule" });
+  const leagueOnClick = useNavigateAction({ type: "url", url: "/league" });
+  const clubOnClick = useNavigateAction({ type: "url", url: "/club" });
   const aboutOnClick = useNavigateAction({ type: "url", url: "/about" });
   const buttonOnClick = useAuthSignOutAction({ global: true });
   return (
@@ -83,8 +82,8 @@ export default function NavBar(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="AnyReplay App -"
-          {...getOverrideProps(overrides, "AnyReplay App -")}
+          children="AB Replay App"
+          {...getOverrideProps(overrides, "ab-replay app")}
         ></Text>
       </Flex>
       <Flex
@@ -97,7 +96,7 @@ export default function NavBar(props) {
         height="24px"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Frame 321pxw")}
+        {...getOverrideProps(overrides, "Frame 32129767076")}
       >
         <Text
           fontFamily="Inter"
@@ -135,11 +134,11 @@ export default function NavBar(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Leaderboard"
+          children="Game"
           onClick={() => {
-            leaderboardOnClick();
+            gameOnClick();
           }}
-          {...getOverrideProps(overrides, "Leaderboard")}
+          {...getOverrideProps(overrides, "Game")}
         ></Text>
         <Text
           fontFamily="Inter"
@@ -156,11 +155,53 @@ export default function NavBar(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Replay"
+          children="Schedule"
           onClick={() => {
-            replayOnClick();
+            scheduleOnClick();
           }}
-          {...getOverrideProps(overrides, "Replay")}
+          {...getOverrideProps(overrides, "Schedule")}
+        ></Text>
+        <Text
+          fontFamily="Inter"
+          fontSize="16px"
+          fontWeight="400"
+          color="rgba(0,0,0,1)"
+          lineHeight="24px"
+          textAlign="left"
+          display="flex"
+          direction="column"
+          justifyContent="flex-start"
+          letterSpacing="0.01px"
+          shrink="0"
+          position="relative"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="League"
+          onClick={() => {
+            leagueOnClick();
+          }}
+          {...getOverrideProps(overrides, "League")}
+        ></Text>
+        <Text
+          fontFamily="Inter"
+          fontSize="16px"
+          fontWeight="400"
+          color="rgba(0,0,0,1)"
+          lineHeight="24px"
+          textAlign="left"
+          display="flex"
+          direction="column"
+          justifyContent="flex-start"
+          letterSpacing="0.01px"
+          shrink="0"
+          position="relative"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Club"
+          onClick={() => {
+            clubOnClick();
+          }}
+          {...getOverrideProps(overrides, "Club")}
         ></Text>
         <Text
           fontFamily="Inter"
@@ -195,14 +236,23 @@ export default function NavBar(props) {
         height="45px"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Frame 321pks")}
+        {...getOverrideProps(overrides, "Frame 32129767081")}
       >
         <Button
           display="flex"
+          gap="0"
+          direction="row"
           width="fit-content"
+          justifyContent="center"
+          alignItems="center"
           shrink="0"
           height="42px"
+          position="relative"
+          border="1px SOLID rgba(174,179,183,1)"
+          borderRadius="5px"
+          padding="8px 16px 8px 16px"
           size="default"
+          isDisabled={false}
           variation="default"
           children="Sign Out"
           onClick={() => {

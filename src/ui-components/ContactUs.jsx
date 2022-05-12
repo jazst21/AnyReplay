@@ -143,75 +143,102 @@ export default function ContactUs(props) {
         ></Text>
       </Flex>
       <SelectField
-        gap="12px"
         display="flex"
+        direction="column"
+        justifyContent="center"
         shrink="0"
         alignSelf="stretch"
         objectFit="cover"
+        position="relative"
+        padding="0px 0px 0px 0px"
         label="Label"
         placeholder="Placeholder"
         size="large"
+        isDisabled={false}
+        labelHidden={false}
         variation="default"
-        {...getOverrideProps(overrides, "SelectFieldmti")}
+        {...getOverrideProps(overrides, "SelectField29766935")}
       ></SelectField>
       <TextField
-        gap="12px"
         display="flex"
+        direction="column"
+        justifyContent="center"
         shrink="0"
         alignSelf="stretch"
         objectFit="cover"
+        position="relative"
+        padding="0px 0px 0px 0px"
         label="Label"
         placeholder="Placeholder"
         size="large"
+        isDisabled={false}
+        labelHidden={false}
         variation="default"
-        {...getOverrideProps(overrides, "TextFieldxya")}
+        {...getOverrideProps(overrides, "TextField29766936")}
       ></TextField>
       <SelectField
-        gap="12px"
         display="flex"
+        direction="column"
+        justifyContent="center"
         shrink="0"
         alignSelf="stretch"
         objectFit="cover"
+        position="relative"
+        padding="0px 0px 0px 0px"
         label="Label"
         placeholder="Placeholder"
         size="large"
+        isDisabled={false}
+        labelHidden={false}
         variation="default"
-        {...getOverrideProps(overrides, "SelectFieldnel")}
+        {...getOverrideProps(overrides, "SelectField29766937")}
       ></SelectField>
       <TextField
-        gap="12px"
         display="flex"
+        direction="column"
+        justifyContent="center"
         shrink="0"
         alignSelf="stretch"
         objectFit="cover"
+        position="relative"
+        padding="0px 0px 0px 0px"
         label="Label"
         placeholder="Placeholder"
         size="large"
+        isDisabled={false}
+        labelHidden={false}
         variation="default"
-        {...getOverrideProps(overrides, "TextFieldnnp")}
+        {...getOverrideProps(overrides, "TextField29766938")}
       ></TextField>
       <TextField
-        gap="12px"
         display="flex"
+        direction="column"
+        justifyContent="center"
         shrink="0"
         alignSelf="stretch"
         objectFit="cover"
+        position="relative"
+        padding="0px 0px 0px 0px"
         label="Label"
         placeholder="Placeholder"
         size="large"
+        isDisabled={false}
+        labelHidden={false}
         variation="default"
-        {...getOverrideProps(overrides, "TextFieldork")}
+        {...getOverrideProps(overrides, "TextField29766939")}
       ></TextField>
       <Button
-        border="1px SOLID rgba(0,0,0,0)"
-        borderRadius="4px"
-        padding="7px 15px 7px 15px"
         display="flex"
+        gap="0"
+        direction="row"
+        justifyContent="center"
+        alignItems="center"
         shrink="0"
         alignSelf="stretch"
         objectFit="cover"
-        backgroundColor="rgba(4,125,149,1)"
+        position="relative"
         size="large"
+        isDisabled={false}
         variation="primary"
         children="Primary Button"
         {...getOverrideProps(overrides, "Button")}
@@ -224,7 +251,7 @@ export default function ContactUs(props) {
         shrink="0"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Frame 28ymo")}
+        {...getOverrideProps(overrides, "Frame 2829766941")}
       >
         <Flex
           gap="8px"
@@ -235,7 +262,7 @@ export default function ContactUs(props) {
           height="24px"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Frame 28uxf")}
+          {...getOverrideProps(overrides, "Frame 2829766942")}
         >
           <View
             width="24px"
@@ -244,7 +271,7 @@ export default function ContactUs(props) {
             overflow="hidden"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Iconflv")}
+            {...getOverrideProps(overrides, "Icon29766943")}
           >
             <Icon
               width="20px"
@@ -262,7 +289,7 @@ export default function ContactUs(props) {
               bottom="8.33%"
               left="8.33%"
               right="8.33%"
-              {...getOverrideProps(overrides, "Vectorqdo")}
+              {...getOverrideProps(overrides, "Vector29766944")}
             ></Icon>
           </View>
           <Text
@@ -301,7 +328,7 @@ export default function ContactUs(props) {
             overflow="hidden"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Iconndg")}
+            {...getOverrideProps(overrides, "Icon29766947")}
           >
             <Icon
               width="15px"
@@ -319,7 +346,7 @@ export default function ContactUs(props) {
               bottom="12.5%"
               left="20.83%"
               right="16.67%"
-              {...getOverrideProps(overrides, "Vectorzkp")}
+              {...getOverrideProps(overrides, "Vector29766948")}
             ></Icon>
           </View>
           <Text

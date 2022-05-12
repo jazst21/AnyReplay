@@ -87,7 +87,10 @@ export default function Comment(props) {
       </Flex>
       <Divider
         width="1280px"
+        height="1px"
         shrink="0"
+        position="relative"
+        padding="0px 0px 0px 0px"
         size="small"
         orientation="horizontal"
         {...getOverrideProps(overrides, "Divider")}

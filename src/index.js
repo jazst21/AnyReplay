@@ -7,6 +7,13 @@ import Amplify from 'aws-amplify';
 import "@aws-amplify/ui-react/styles.css";
 import {AmplifyProvider} from "@aws-amplify/ui-react";
 import awsconfig from './aws-exports';
+
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import registerServiceWorker from './registerServiceWorker';
+// import $ from 'jquery';
+// import Popper from 'popper.js';
+// import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 Amplify.configure(awsconfig);
 
 ReactDOM.render(
@@ -22,3 +29,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+// registerServiceWorker();

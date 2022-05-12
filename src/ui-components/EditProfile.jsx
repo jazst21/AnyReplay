@@ -49,7 +49,7 @@ export default function EditProfile(props) {
           objectFit="cover"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Edit Profileaqx")}
+          {...getOverrideProps(overrides, "Edit Profile29766913")}
         >
           <View
             width="24px"
@@ -94,16 +94,19 @@ export default function EditProfile(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Edit Profile"
-            {...getOverrideProps(overrides, "Edit Profilelfl")}
+            {...getOverrideProps(overrides, "Edit Profile29766916")}
           ></Text>
         </Flex>
         <Divider
+          height="1px"
           shrink="0"
           alignSelf="stretch"
           objectFit="cover"
+          position="relative"
+          padding="0px 0px 0px 0px"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Divideryiv")}
+          {...getOverrideProps(overrides, "Divider29766917")}
         ></Divider>
         <Flex
           gap="16px"
@@ -155,56 +158,82 @@ export default function EditProfile(props) {
           {...getOverrideProps(overrides, "Forms")}
         >
           <TextField
+            display="flex"
+            gap="8px"
+            direction="column"
+            justifyContent="center"
+            shrink="0"
+            alignSelf="stretch"
+            objectFit="cover"
+            position="relative"
+            padding="0px 0px 0px 0px"
             label="name"
             placeholder="John Doe"
+            size="default"
+            isDisabled={false}
+            labelHidden={false}
+            variation="default"
+            {...getOverrideProps(overrides, "TextField29766922")}
+          ></TextField>
+          <TextField
             display="flex"
+            gap="8px"
+            direction="column"
+            justifyContent="center"
             shrink="0"
             alignSelf="stretch"
             objectFit="cover"
-            size="default"
-            variation="default"
-            {...getOverrideProps(overrides, "TextFieldeoq")}
-          ></TextField>
-          <TextField
+            position="relative"
+            padding="0px 0px 0px 0px"
             label="location"
             placeholder="Seattle, WA"
-            display="flex"
-            shrink="0"
-            alignSelf="stretch"
-            objectFit="cover"
             size="default"
+            isDisabled={false}
+            labelHidden={false}
             variation="default"
-            {...getOverrideProps(overrides, "TextFieldnbv")}
+            {...getOverrideProps(overrides, "TextField29766923")}
           ></TextField>
           <TextField
-            label="email"
-            placeholder="john.doe@awsamplify.com"
             display="flex"
+            gap="8px"
+            direction="column"
+            justifyContent="center"
             shrink="0"
             alignSelf="stretch"
             objectFit="cover"
+            position="relative"
+            padding="0px 0px 0px 0px"
+            label="email"
+            placeholder="john.doe@awsamplify.com"
             size="default"
+            isDisabled={false}
+            labelHidden={false}
             variation="default"
-            {...getOverrideProps(overrides, "TextFieldbeo")}
+            {...getOverrideProps(overrides, "TextField29766924")}
           ></TextField>
         </Flex>
         <Divider
+          height="1px"
           shrink="0"
           alignSelf="stretch"
           objectFit="cover"
+          position="relative"
+          padding="0px 0px 0px 0px"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Divideruel")}
+          {...getOverrideProps(overrides, "Divider29766925")}
         ></Divider>
         <Button
-          border="1px SOLID rgba(0,0,0,0)"
-          borderRadius="4px"
-          padding="7px 15px 7px 15px"
           display="flex"
+          gap="0"
+          direction="row"
           width="fit-content"
+          justifyContent="center"
+          alignItems="center"
           shrink="0"
-          backgroundColor="rgba(4,125,149,1)"
+          position="relative"
           size="default"
+          isDisabled={false}
           variation="primary"
           children="Save"
           {...getOverrideProps(overrides, "Button")}

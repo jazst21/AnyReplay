@@ -14,24 +14,29 @@ import {
   useStateMutationAction,
 } from "@aws-amplify/ui-react/internal";
 import { Comments, Replay } from "../models";
+import { schema } from "../models/schema";
 import { Button, Flex, Image, Text, TextField } from "@aws-amplify/ui-react";
 export default function CardB(props) {
   const { replay, overrides, ...rest } = props;
   const authAttributes = useAuth().user?.attributes ?? {};
   const [textFieldValue, setTextFieldValue] = useStateMutationAction("");
-  const buttonzrdOnClick = useDataStoreUpdateAction({
-    fields: { rating: replay?.rating+1 },
-    id: replay?.id,
-    model: Replay,
-  });
-  const buttonrjdOnClick = useDataStoreCreateAction({
-    fields: {
-      replay_id: authAttributes["name"],
-      username: authAttributes["name"],
-      comment: textFieldValue,
-    },
-    model: Comments,
-  });
+  const buttonThreeZeroFiveOneTwoSevenFourSevenOnClick =
+    useDataStoreUpdateAction({
+      fields: { rating: "100" },
+      id: replay?.id,
+      model: Replay,
+      schema: schema,
+    });
+  const buttonThreeZeroFiveSevenTwoEightTwoSevenOnClick =
+    useDataStoreCreateAction({
+      fields: {
+        replay_id: authAttributes["name"],
+        username: authAttributes["name"],
+        comment: textFieldValue,
+      },
+      model: Comments,
+      schema: schema,
+    });
   return (
     <Flex
       gap="0"
@@ -161,26 +166,38 @@ export default function CardB(props) {
             {...getOverrideProps(overrides, "Forms")}
           >
             <Button
-              padding="6px 12px 6px 12px"
               display="flex"
+              gap="0"
+              direction="row"
               width="37px"
               height="35px"
+              justifyContent="center"
+              alignItems="center"
               shrink="0"
+              position="relative"
+              border="1px SOLID rgba(174,179,183,1)"
+              borderRadius="5px"
               size="small"
+              isDisabled={false}
               variation="default"
               children="Like"
               onClick={() => {
-                buttonzrdOnClick();
+                buttonThreeZeroFiveOneTwoSevenFourSevenOnClick();
               }}
-              {...getOverrideProps(overrides, "Buttonzrd")}
+              {...getOverrideProps(overrides, "Button30512747")}
             ></Button>
             <TextField
-              width="183px"
               display="flex"
+              gap="8px"
+              direction="column"
+              width="183px"
               height="33px"
               shrink="0"
+              position="relative"
+              padding="0px 0px 0px 0px"
               placeholder="Placeholder"
               size="small"
+              isDisabled={false}
               labelHidden={true}
               variation="default"
               value={textFieldValue}
@@ -190,18 +207,25 @@ export default function CardB(props) {
               {...getOverrideProps(overrides, "TextField")}
             ></TextField>
             <Button
-              padding="6px 12px 6px 12px"
               display="flex"
+              gap="0"
+              direction="row"
               width="37px"
               height="35px"
+              justifyContent="center"
+              alignItems="center"
               shrink="0"
+              position="relative"
+              border="1px SOLID rgba(174,179,183,1)"
+              borderRadius="5px"
               size="small"
+              isDisabled={false}
               variation="default"
               children="Post"
               onClick={() => {
-                buttonrjdOnClick();
+                buttonThreeZeroFiveSevenTwoEightTwoSevenOnClick();
               }}
-              {...getOverrideProps(overrides, "Buttonrjd")}
+              {...getOverrideProps(overrides, "Button30572827")}
             ></Button>
           </Flex>
         </Flex>

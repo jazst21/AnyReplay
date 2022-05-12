@@ -20,22 +20,23 @@ import {
 export default function AddReplay(props) {
   const { replay, overrides, ...rest } = props;
   return (
-    <Flex
-      gap="10px"
-      direction="column"
+    <View
+      width="640px"
+      height="570px"
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      backgroundColor="rgba(255,255,255,1)"
+      backgroundColor="rgba(222,226,232,1)"
       {...rest}
       {...getOverrideProps(overrides, "AddReplay")}
     >
       <Flex
         gap="24px"
+        position="absolute"
+        top="0px"
+        left="0px"
         direction="column"
         width="640px"
-        shrink="0"
-        position="relative"
         padding="24px 24px 24px 24px"
         {...getOverrideProps(overrides, "Content")}
       >
@@ -97,12 +98,15 @@ export default function AddReplay(props) {
           ></Text>
         </Flex>
         <Divider
+          height="1px"
           shrink="0"
           alignSelf="stretch"
           objectFit="cover"
+          position="relative"
+          padding="0px 0px 0px 0px"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Dividerkrz")}
+          {...getOverrideProps(overrides, "Divider30542883")}
         ></Divider>
         <Flex
           gap="16px"
@@ -122,6 +126,7 @@ export default function AddReplay(props) {
             position="relative"
             borderRadius="160px"
             padding="0px 0px 0px 0px"
+            src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
             {...getOverrideProps(overrides, "image")}
           ></Image>
           <Text
@@ -154,61 +159,87 @@ export default function AddReplay(props) {
           {...getOverrideProps(overrides, "Forms")}
         >
           <TextField
+            display="flex"
+            gap="8px"
+            direction="column"
+            justifyContent="center"
+            shrink="0"
+            alignSelf="stretch"
+            objectFit="cover"
+            position="relative"
+            padding="0px 0px 0px 0px"
             label="Team A"
             placeholder="John Doe"
+            size="default"
+            isDisabled={false}
+            labelHidden={false}
+            variation="default"
+            {...getOverrideProps(overrides, "TextField30542888")}
+          ></TextField>
+          <TextField
             display="flex"
+            gap="8px"
+            direction="column"
+            justifyContent="center"
             shrink="0"
             alignSelf="stretch"
             objectFit="cover"
-            size="default"
-            variation="default"
-            {...getOverrideProps(overrides, "TextFieldhxz")}
-          ></TextField>
-          <TextField
+            position="relative"
+            padding="0px 0px 0px 0px"
             label="Team B"
             placeholder="Seattle, WA"
-            display="flex"
-            shrink="0"
-            alignSelf="stretch"
-            objectFit="cover"
             size="default"
+            isDisabled={false}
+            labelHidden={false}
             variation="default"
-            {...getOverrideProps(overrides, "TextFieldmxf")}
+            {...getOverrideProps(overrides, "TextField30542889")}
           ></TextField>
           <TextField
-            label="Video Replay"
-            placeholder="john.doe@awsamplify.com"
             display="flex"
+            gap="8px"
+            direction="column"
+            justifyContent="center"
             shrink="0"
             alignSelf="stretch"
             objectFit="cover"
+            position="relative"
+            padding="0px 0px 0px 0px"
+            label="Video Replay"
+            placeholder="john.doe@awsamplify.com"
             size="default"
+            isDisabled={false}
+            labelHidden={false}
             variation="default"
-            {...getOverrideProps(overrides, "TextFieldnvl")}
+            {...getOverrideProps(overrides, "TextField30542890")}
           ></TextField>
           <Button
-            border="1px SOLID rgba(0,0,0,0)"
-            borderRadius="4px"
-            padding="7px 15px 7px 15px"
             display="flex"
+            gap="0"
+            direction="row"
             width="fit-content"
+            justifyContent="center"
+            alignItems="center"
             shrink="0"
-            backgroundColor="rgba(4,125,149,1)"
+            position="relative"
             size="default"
+            isDisabled={false}
             variation="primary"
             children="Save"
             {...getOverrideProps(overrides, "Button")}
           ></Button>
         </Flex>
         <Divider
+          height="1px"
           shrink="0"
           alignSelf="stretch"
           objectFit="cover"
+          position="relative"
+          padding="0px 0px 0px 0px"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Divideretj")}
+          {...getOverrideProps(overrides, "Divider30542891")}
         ></Divider>
       </Flex>
-    </Flex>
+    </View>
   );
 }

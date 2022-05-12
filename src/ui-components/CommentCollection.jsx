@@ -15,13 +15,11 @@ import Comment from "./Comment";
 import { Collection } from "@aws-amplify/ui-react";
 export default function CommentCollection(props) {
   const { items: itemsProp, overrideItems, overrides, ...rest } = props;
-  const items =
-    itemsProp !== undefined
-      ? itemsProp
-      : useDataStoreBinding({
-          type: "collection",
-          model: Comments,
-        }).items;
+  const itemsDataStore = useDataStoreBinding({
+    type: "collection",
+    model: Comments,
+  }).items;
+  const items = itemsProp !== undefined ? itemsProp : itemsDataStore;
   return (
     <Collection
       type="list"
