@@ -83,9 +83,14 @@ export default function CardF(props) {
         >
           <Rating
             display="flex"
+            gap="8px"
+            direction="row"
             width="fit-content"
+            alignItems="center"
             shrink="0"
             height="36px"
+            position="relative"
+            padding="0px 0px 0px 0px"
             size="large"
             {...getOverrideProps(overrides, "Rating")}
           ></Rating>
@@ -120,61 +125,73 @@ export default function CardF(props) {
           {...getOverrideProps(overrides, "Tags")}
         >
           <Badge
-            fontSize="12px"
-            lineHeight="12px"
-            padding="6px 8px 6px 8px"
             display="flex"
+            gap="10px"
+            direction="column"
             width="fit-content"
+            justifyContent="flex-start"
+            alignItems="center"
             shrink="0"
             height="24px"
+            position="relative"
+            borderRadius="99px"
+            backgroundColor="rgba(239,240,240,1)"
+            fontSize="12px"
+            lineHeight="12px"
             fontFamily="Inter"
             fontWeight="700"
             color="rgba(13,26,38,1)"
             textAlign="left"
-            direction="column"
-            justifyContent="flex-start"
             size="small"
             variation="default"
             children="New"
-            {...getOverrideProps(overrides, "Badgeiij")}
+            {...getOverrideProps(overrides, "Badge29766804")}
           ></Badge>
           <Badge
-            fontSize="12px"
-            lineHeight="12px"
-            padding="6px 8px 6px 8px"
             display="flex"
+            gap="10px"
+            direction="column"
             width="fit-content"
+            justifyContent="flex-start"
+            alignItems="center"
             shrink="0"
             height="24px"
+            position="relative"
+            borderRadius="99px"
+            backgroundColor="rgba(239,240,240,1)"
+            fontSize="12px"
+            lineHeight="12px"
             fontFamily="Inter"
             fontWeight="700"
             color="rgba(13,26,38,1)"
             textAlign="left"
-            direction="column"
-            justifyContent="flex-start"
             size="small"
             variation="default"
             children="Classic"
-            {...getOverrideProps(overrides, "Badgedoz")}
+            {...getOverrideProps(overrides, "Badge29766805")}
           ></Badge>
           <Badge
-            fontSize="12px"
-            lineHeight="12px"
-            padding="6px 8px 6px 8px"
             display="flex"
+            gap="10px"
+            direction="column"
             width="fit-content"
+            justifyContent="flex-start"
+            alignItems="center"
             shrink="0"
             height="24px"
+            position="relative"
+            borderRadius="99px"
+            backgroundColor="rgba(239,240,240,1)"
+            fontSize="12px"
+            lineHeight="12px"
             fontFamily="Inter"
             fontWeight="700"
             color="rgba(13,26,38,1)"
             textAlign="left"
-            direction="column"
-            justifyContent="flex-start"
             size="small"
             variation="default"
             children="Modern"
-            {...getOverrideProps(overrides, "Badgecci")}
+            {...getOverrideProps(overrides, "Badge29766806")}
           ></Badge>
         </Flex>
         <Text
@@ -209,7 +226,12 @@ export default function CardF(props) {
           {...getOverrideProps(overrides, "Quote")}
         >
           <MyIcon
+            width="24px"
+            height="24px"
             shrink="0"
+            overflow="hidden"
+            position="relative"
+            padding="0px 0px 0px 0px"
             type="chat"
             {...getOverrideProps(overrides, "MyIcon")}
           ></MyIcon>
@@ -235,9 +257,12 @@ export default function CardF(props) {
           ></Text>
         </Flex>
         <Divider
+          height="1px"
           shrink="0"
           alignSelf="stretch"
           objectFit="cover"
+          position="relative"
+          padding="0px 0px 0px 0px"
           size="small"
           orientation="horizontal"
           {...getOverrideProps(overrides, "Divider")}
@@ -261,7 +286,7 @@ export default function CardF(props) {
             height="24px"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Featurevle")}
+            {...getOverrideProps(overrides, "Feature29766813")}
           >
             <View
               width="24px"
@@ -270,7 +295,7 @@ export default function CardF(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Icondxg")}
+              {...getOverrideProps(overrides, "Icon29766814")}
             >
               <Icon
                 width="17.58984375px"
@@ -293,7 +318,7 @@ export default function CardF(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorezi")}
+                {...getOverrideProps(overrides, "Vector29766815")}
               ></Icon>
             </View>
             <Text
@@ -324,7 +349,7 @@ export default function CardF(props) {
             height="24px"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Featureyby")}
+            {...getOverrideProps(overrides, "Feature29766817")}
           >
             <View
               width="24px"
@@ -333,7 +358,7 @@ export default function CardF(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Iconeab")}
+              {...getOverrideProps(overrides, "Icon29766818")}
             >
               <Icon
                 width="17.58984375px"
@@ -356,7 +381,7 @@ export default function CardF(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectorhgj")}
+                {...getOverrideProps(overrides, "Vector29766819")}
               ></Icon>
             </View>
             <Text
@@ -387,7 +412,7 @@ export default function CardF(props) {
             height="24px"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Featuretrc")}
+            {...getOverrideProps(overrides, "Feature29766821")}
           >
             <View
               width="24px"
@@ -396,7 +421,7 @@ export default function CardF(props) {
               overflow="hidden"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Icontty")}
+              {...getOverrideProps(overrides, "Icon29766822")}
             >
               <Icon
                 width="17.58984375px"
@@ -419,7 +444,7 @@ export default function CardF(props) {
                 bottom="20.83%"
                 left="14.21%"
                 right="12.5%"
-                {...getOverrideProps(overrides, "Vectoriph")}
+                {...getOverrideProps(overrides, "Vector29766823")}
               ></Icon>
             </View>
             <Text

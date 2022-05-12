@@ -99,8 +99,13 @@ export default function CardC(props) {
         </Flex>
         <Rating
           display="flex"
+          gap="8px"
+          direction="row"
           width="174px"
+          alignItems="center"
           shrink="0"
+          position="relative"
+          padding="0px 0px 0px 0px"
           size="default"
           {...getOverrideProps(overrides, "Rating")}
         ></Rating>
@@ -124,15 +129,17 @@ export default function CardC(props) {
           {...getOverrideProps(overrides, "Rating :")}
         ></Text>
         <Button
-          border="1px SOLID rgba(0,0,0,0)"
-          borderRadius="4px"
-          padding="7px 15px 7px 15px"
           display="flex"
+          gap="0"
+          direction="row"
+          justifyContent="center"
+          alignItems="center"
           shrink="0"
           alignSelf="stretch"
           objectFit="cover"
-          backgroundColor="rgba(4,125,149,1)"
+          position="relative"
           size="large"
+          isDisabled={false}
           variation="primary"
           children="View Replay"
           onClick={() => {

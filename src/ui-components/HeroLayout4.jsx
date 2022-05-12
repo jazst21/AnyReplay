@@ -94,7 +94,7 @@ export default function HeroLayout4(props) {
           children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           {...getOverrideProps(
             overrides,
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.deu"
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.29766572"
           )}
         ></Text>
         <Flex
@@ -109,24 +109,32 @@ export default function HeroLayout4(props) {
         >
           <TextField
             display="flex"
+            gap="8px"
+            direction="column"
+            width="300px"
             shrink="0"
             height="40px"
+            position="relative"
+            padding="0px 0px 0px 0px"
             placeholder="Placeholder"
             size="default"
+            isDisabled={false}
             labelHidden={true}
             variation="default"
             {...getOverrideProps(overrides, "TextField")}
           ></TextField>
           <Button
-            border="1px SOLID rgba(0,0,0,0)"
-            borderRadius="4px"
-            padding="7px 15px 7px 15px"
             display="flex"
+            gap="0"
+            direction="row"
             width="fit-content"
+            justifyContent="center"
+            alignItems="center"
             shrink="0"
             height="40px"
-            backgroundColor="rgba(4,125,149,1)"
+            position="relative"
             size="default"
+            isDisabled={false}
             variation="primary"
             children="Primary Button"
             {...getOverrideProps(overrides, "Button")}
@@ -151,7 +159,7 @@ export default function HeroLayout4(props) {
           children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           {...getOverrideProps(
             overrides,
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.yod"
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.29766576"
           )}
         ></Text>
       </Flex>

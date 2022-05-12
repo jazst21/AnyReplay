@@ -88,7 +88,12 @@ export default function ProfileA(props) {
         {...getOverrideProps(overrides, "Followers")}
       >
         <MyIcon
+          width="24px"
+          height="24px"
           shrink="0"
+          overflow="hidden"
+          position="relative"
+          padding="0px 0px 0px 0px"
           type="group"
           {...getOverrideProps(overrides, "MyIcon")}
         ></MyIcon>
@@ -112,15 +117,17 @@ export default function ProfileA(props) {
         ></Text>
       </Flex>
       <Button
-        border="1px SOLID rgba(0,0,0,0)"
-        borderRadius="4px"
-        padding="7px 15px 7px 15px"
         display="flex"
+        gap="0"
+        direction="row"
+        justifyContent="center"
+        alignItems="center"
         shrink="0"
         alignSelf="stretch"
         objectFit="cover"
-        backgroundColor="rgba(4,125,149,1)"
+        position="relative"
         size="large"
+        isDisabled={false}
         variation="primary"
         children="View Profile"
         {...getOverrideProps(overrides, "Button")}

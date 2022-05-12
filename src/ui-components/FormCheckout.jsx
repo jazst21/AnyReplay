@@ -56,7 +56,7 @@ export default function FormCheckout(props) {
           height="1086px"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Frame 313pqz")}
+          {...getOverrideProps(overrides, "Frame 31329767006")}
         >
           <Flex
             gap="24px"
@@ -86,37 +86,50 @@ export default function FormCheckout(props) {
               {...getOverrideProps(overrides, "Info")}
             ></Text>
             <TextField
-              gap="12px"
               display="flex"
+              direction="column"
+              justifyContent="center"
               shrink="0"
               alignSelf="stretch"
               objectFit="cover"
+              position="relative"
+              padding="0px 0px 0px 0px"
               label="Label"
               placeholder="Placeholder"
               size="large"
+              isDisabled={false}
+              labelHidden={false}
               variation="default"
-              {...getOverrideProps(overrides, "TextFieldyvv")}
+              {...getOverrideProps(overrides, "TextField29767009")}
             ></TextField>
             <TextField
-              gap="12px"
               display="flex"
+              direction="column"
+              justifyContent="center"
               shrink="0"
               alignSelf="stretch"
               objectFit="cover"
+              position="relative"
+              padding="0px 0px 0px 0px"
               label="Label"
               placeholder="Placeholder"
               size="large"
+              isDisabled={false}
+              labelHidden={false}
               variation="default"
-              {...getOverrideProps(overrides, "TextFieldlfe")}
+              {...getOverrideProps(overrides, "TextField29767010")}
             ></TextField>
           </Flex>
           <Divider
+            height="1px"
             shrink="0"
             alignSelf="stretch"
             objectFit="cover"
+            position="relative"
+            padding="0px 0px 0px 0px"
             size="small"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Dividercjo")}
+            {...getOverrideProps(overrides, "Divider29767011")}
           ></Divider>
           <Flex
             gap="24px"
@@ -143,52 +156,70 @@ export default function FormCheckout(props) {
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Shipping"
-              {...getOverrideProps(overrides, "Shippingctu")}
+              {...getOverrideProps(overrides, "Shipping29767013")}
             ></Text>
             <TextField
-              gap="12px"
               display="flex"
+              direction="column"
+              justifyContent="center"
               shrink="0"
               alignSelf="stretch"
               objectFit="cover"
+              position="relative"
+              padding="0px 0px 0px 0px"
               label="Label"
               placeholder="Placeholder"
               size="large"
+              isDisabled={false}
+              labelHidden={false}
               variation="default"
-              {...getOverrideProps(overrides, "TextFieldqxi")}
+              {...getOverrideProps(overrides, "TextField29767014")}
             ></TextField>
             <TextField
-              gap="12px"
               display="flex"
+              direction="column"
+              justifyContent="center"
               shrink="0"
               alignSelf="stretch"
               objectFit="cover"
+              position="relative"
+              padding="0px 0px 0px 0px"
               label="Label"
               placeholder="Placeholder"
               size="large"
+              isDisabled={false}
+              labelHidden={false}
               variation="default"
-              {...getOverrideProps(overrides, "TextFieldedh")}
+              {...getOverrideProps(overrides, "TextField29767015")}
             ></TextField>
             <TextField
-              gap="12px"
               display="flex"
+              direction="column"
+              justifyContent="center"
               shrink="0"
               alignSelf="stretch"
               objectFit="cover"
+              position="relative"
+              padding="0px 0px 0px 0px"
               label="Label"
               placeholder="Placeholder"
               size="large"
+              isDisabled={false}
+              labelHidden={false}
               variation="default"
-              {...getOverrideProps(overrides, "TextFieldjfl")}
+              {...getOverrideProps(overrides, "TextField29792893")}
             ></TextField>
           </Flex>
           <Divider
+            height="1px"
             shrink="0"
             alignSelf="stretch"
             objectFit="cover"
+            position="relative"
+            padding="0px 0px 0px 0px"
             size="small"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Dividerxnv")}
+            {...getOverrideProps(overrides, "Divider29767022")}
           ></Divider>
           <Flex
             gap="24px"
@@ -198,7 +229,7 @@ export default function FormCheckout(props) {
             objectFit="cover"
             position="relative"
             padding="0px 32px 0px 32px"
-            {...getOverrideProps(overrides, "Frame 313aaq")}
+            {...getOverrideProps(overrides, "Frame 31329767023")}
           >
             <Text
               fontFamily="Inter"
@@ -218,28 +249,38 @@ export default function FormCheckout(props) {
               {...getOverrideProps(overrides, "Card info")}
             ></Text>
             <TextField
-              gap="12px"
               display="flex"
+              direction="column"
+              justifyContent="center"
               shrink="0"
               alignSelf="stretch"
               objectFit="cover"
+              position="relative"
+              padding="0px 0px 0px 0px"
               label="Label"
               placeholder="Placeholder"
               size="large"
+              isDisabled={false}
+              labelHidden={false}
               variation="default"
-              {...getOverrideProps(overrides, "TextFieldwiu")}
+              {...getOverrideProps(overrides, "TextField29767025")}
             ></TextField>
             <TextField
-              gap="12px"
               display="flex"
+              direction="column"
+              justifyContent="center"
               shrink="0"
               alignSelf="stretch"
               objectFit="cover"
+              position="relative"
+              padding="0px 0px 0px 0px"
               label="Label"
               placeholder="Placeholder"
               size="large"
+              isDisabled={false}
+              labelHidden={false}
               variation="default"
-              {...getOverrideProps(overrides, "TextFieldnjp")}
+              {...getOverrideProps(overrides, "TextField29767026")}
             ></TextField>
             <Flex
               gap="24px"
@@ -253,30 +294,40 @@ export default function FormCheckout(props) {
               {...getOverrideProps(overrides, "Frame 410")}
             >
               <SelectField
-                gap="12px"
-                width="289.5px"
                 display="flex"
+                direction="column"
+                width="289.5px"
+                justifyContent="center"
                 grow="1"
                 basis="289.5px"
                 height="88px"
+                position="relative"
+                padding="0px 0px 0px 0px"
                 label="Label"
                 placeholder="Placeholder"
                 size="large"
+                isDisabled={false}
+                labelHidden={false}
                 variation="default"
-                {...getOverrideProps(overrides, "SelectFieldira")}
+                {...getOverrideProps(overrides, "SelectField29767028")}
               ></SelectField>
               <SelectField
-                gap="12px"
-                width="289.5px"
                 display="flex"
+                direction="column"
+                width="289.5px"
+                justifyContent="center"
                 grow="1"
                 basis="289.5px"
                 height="88px"
+                position="relative"
+                padding="0px 0px 0px 0px"
                 label="Label"
                 placeholder="Placeholder"
                 size="large"
+                isDisabled={false}
+                labelHidden={false}
                 variation="default"
-                {...getOverrideProps(overrides, "SelectFieldyvp")}
+                {...getOverrideProps(overrides, "SelectField29767029")}
               ></SelectField>
             </Flex>
           </Flex>
@@ -320,7 +371,7 @@ export default function FormCheckout(props) {
               right="78.02%"
               width="21.98%"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "imagelgq")}
+              {...getOverrideProps(overrides, "image29767033")}
             ></Image>
             <Text
               fontFamily="Inter"
@@ -340,7 +391,7 @@ export default function FormCheckout(props) {
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Order Summary"
-              {...getOverrideProps(overrides, "Order Summaryqhm")}
+              {...getOverrideProps(overrides, "Order Summary29767034")}
             ></Text>
             <Text
               fontFamily="Inter"
@@ -361,7 +412,7 @@ export default function FormCheckout(props) {
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Black"
-              {...getOverrideProps(overrides, "Blackqyp")}
+              {...getOverrideProps(overrides, "Black29767035")}
             ></Text>
             <Text
               fontFamily="Inter"
@@ -382,7 +433,7 @@ export default function FormCheckout(props) {
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Basic Tee"
-              {...getOverrideProps(overrides, "Basic Teeydt")}
+              {...getOverrideProps(overrides, "Basic Tee29767036")}
             ></Text>
             <Text
               fontFamily="Inter"
@@ -403,7 +454,7 @@ export default function FormCheckout(props) {
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Large"
-              {...getOverrideProps(overrides, "Largejtc")}
+              {...getOverrideProps(overrides, "Large29767037")}
             ></Text>
             <MyIcon
               position="absolute"
@@ -411,22 +462,29 @@ export default function FormCheckout(props) {
               bottom="82.55%"
               left="94.07%"
               right="0%"
+              overflow="hidden"
+              padding="0px 0px 0px 0px"
               type="delete"
-              {...getOverrideProps(overrides, "MyIconefi")}
+              {...getOverrideProps(overrides, "MyIcon29767038")}
             ></MyIcon>
             <SelectField
-              width="64px"
-              position="absolute"
               display="flex"
+              gap="8px"
+              position="absolute"
               top="73.09%"
               bottom="0%"
               left="84.2%"
               right="0%"
+              direction="column"
+              width="64px"
+              justifyContent="center"
+              padding="0px 0px 0px 0px"
               placeholder=""
               size="small"
+              isDisabled={false}
               labelHidden={true}
               variation="default"
-              {...getOverrideProps(overrides, "SelectFieldatd")}
+              {...getOverrideProps(overrides, "SelectField29767039")}
             ></SelectField>
           </View>
           <Divider
@@ -435,9 +493,10 @@ export default function FormCheckout(props) {
             bottom="58.23%"
             left="0%"
             right="0%"
+            padding="0px 0px 0px 0px"
             size="small"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Dividerrib")}
+            {...getOverrideProps(overrides, "Divider29767040")}
           ></Divider>
           <Divider
             position="absolute"
@@ -445,9 +504,10 @@ export default function FormCheckout(props) {
             bottom="81.36%"
             left="0%"
             right="0%"
+            padding="0px 0px 0px 0px"
             size="small"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Dividerpab")}
+            {...getOverrideProps(overrides, "Divider29767041")}
           ></Divider>
           <Divider
             position="absolute"
@@ -455,9 +515,10 @@ export default function FormCheckout(props) {
             bottom="91.6%"
             left="0%"
             right="0%"
+            padding="0px 0px 0px 0px"
             size="small"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Dividergsm")}
+            {...getOverrideProps(overrides, "Divider29767042")}
           ></Divider>
           <View
             padding="0px 0px 0px 0px"
@@ -477,7 +538,7 @@ export default function FormCheckout(props) {
               right="78.02%"
               width="21.98%"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "imageygs")}
+              {...getOverrideProps(overrides, "image29767044")}
             ></Image>
             <Text
               fontFamily="Inter"
@@ -497,7 +558,7 @@ export default function FormCheckout(props) {
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Order Summary"
-              {...getOverrideProps(overrides, "Order Summaryzpz")}
+              {...getOverrideProps(overrides, "Order Summary29767045")}
             ></Text>
             <Text
               fontFamily="Inter"
@@ -518,7 +579,7 @@ export default function FormCheckout(props) {
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Black"
-              {...getOverrideProps(overrides, "Blacknxe")}
+              {...getOverrideProps(overrides, "Black29767046")}
             ></Text>
             <Text
               fontFamily="Inter"
@@ -539,7 +600,7 @@ export default function FormCheckout(props) {
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Basic Tee"
-              {...getOverrideProps(overrides, "Basic Teehki")}
+              {...getOverrideProps(overrides, "Basic Tee29767047")}
             ></Text>
             <Text
               fontFamily="Inter"
@@ -560,7 +621,7 @@ export default function FormCheckout(props) {
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Large"
-              {...getOverrideProps(overrides, "Largeesy")}
+              {...getOverrideProps(overrides, "Large29767048")}
             ></Text>
             <MyIcon
               position="absolute"
@@ -568,22 +629,29 @@ export default function FormCheckout(props) {
               bottom="82.55%"
               left="94.07%"
               right="0%"
+              overflow="hidden"
+              padding="0px 0px 0px 0px"
               type="delete"
-              {...getOverrideProps(overrides, "MyIcontbb")}
+              {...getOverrideProps(overrides, "MyIcon29767049")}
             ></MyIcon>
             <SelectField
-              width="64px"
-              position="absolute"
               display="flex"
+              gap="8px"
+              position="absolute"
               top="73.09%"
               bottom="0%"
               left="84.2%"
               right="0%"
+              direction="column"
+              width="64px"
+              justifyContent="center"
+              padding="0px 0px 0px 0px"
               placeholder=""
               size="small"
+              isDisabled={false}
               labelHidden={true}
               variation="default"
-              {...getOverrideProps(overrides, "SelectFieldhtt")}
+              {...getOverrideProps(overrides, "SelectField29767050")}
             ></SelectField>
           </View>
           <Divider
@@ -592,9 +660,10 @@ export default function FormCheckout(props) {
             bottom="35.1%"
             left="0%"
             right="0%"
+            padding="0px 0px 0px 0px"
             size="small"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Dividerzol")}
+            {...getOverrideProps(overrides, "Divider29767051")}
           ></Divider>
           <View
             padding="0px 0px 0px 0px"
@@ -676,7 +745,7 @@ export default function FormCheckout(props) {
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Shipping"
-              {...getOverrideProps(overrides, "Shippingriz")}
+              {...getOverrideProps(overrides, "Shipping29767056")}
             ></Text>
             <Text
               fontFamily="Inter"
@@ -758,9 +827,10 @@ export default function FormCheckout(props) {
             bottom="17.49%"
             left="6.82%"
             right="6.82%"
+            padding="0px 0px 0px 0px"
             size="small"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Divideraxx")}
+            {...getOverrideProps(overrides, "Divider29767061")}
           ></Divider>
           <View
             padding="0px 0px 0px 0px"
@@ -818,23 +888,25 @@ export default function FormCheckout(props) {
             bottom="9.09%"
             left="0%"
             right="0%"
+            padding="0px 0px 0px 0px"
             size="small"
             orientation="horizontal"
-            {...getOverrideProps(overrides, "Divideravh")}
+            {...getOverrideProps(overrides, "Divider29767065")}
           ></Divider>
           <Button
-            position="absolute"
-            border="1px SOLID rgba(0,0,0,0)"
-            borderRadius="4px"
-            padding="7px 15px 7px 15px"
             display="flex"
+            gap="0"
+            position="absolute"
             top="94.71%"
             bottom="0%"
             left="6.82%"
             right="6.82%"
+            direction="row"
             width="405px"
-            backgroundColor="rgba(4,125,149,1)"
+            justifyContent="center"
+            alignItems="center"
             size="large"
+            isDisabled={false}
             variation="primary"
             children="Place Order"
             {...getOverrideProps(overrides, "Button")}
@@ -849,11 +921,15 @@ export default function FormCheckout(props) {
             {...getOverrideProps(overrides, "Group 313")}
           >
             <MyIcon
+              width="24px"
+              height="24px"
               position="absolute"
               top="0px"
               left="0px"
+              overflow="hidden"
+              padding="0px 0px 0px 0px"
               type="shopping_bag"
-              {...getOverrideProps(overrides, "MyIconjxy")}
+              {...getOverrideProps(overrides, "MyIcon29767068")}
             ></MyIcon>
             <Text
               fontFamily="Inter"
@@ -897,20 +973,23 @@ export default function FormCheckout(props) {
             ></Text>
           </View>
           <Badge
-            color="rgba(54,94,61,1)"
-            position="absolute"
-            backgroundColor="rgba(214,245,219,1)"
             display="flex"
+            gap="10px"
+            position="absolute"
             top="0px"
             left="32px"
+            direction="column"
             width="405px"
+            justifyContent="flex-start"
+            alignItems="center"
+            borderRadius="99px"
+            padding="8px 12px 8px 12px"
+            color="rgba(54,94,61,1)"
             fontFamily="Inter"
             fontWeight="700"
             fontSize="14px"
             textAlign="left"
             lineHeight="14px"
-            direction="column"
-            justifyContent="flex-start"
             size="default"
             variation="success"
             children="Discount - 10% off"

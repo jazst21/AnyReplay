@@ -146,7 +146,10 @@ export default function CardG(props) {
         </Flex>
         <Divider
           width="40px"
+          height="1px"
           shrink="0"
+          position="relative"
+          padding="0px 0px 0px 0px"
           size="small"
           orientation="horizontal"
           {...getOverrideProps(overrides, "Divider")}
@@ -181,7 +184,7 @@ export default function CardG(props) {
             children="Information about this product."
             {...getOverrideProps(
               overrides,
-              "Information about this product.kwz"
+              "Information about this product.29766836"
             )}
           ></Text>
           <Text
@@ -204,23 +207,27 @@ export default function CardG(props) {
             children="Information about this product."
             {...getOverrideProps(
               overrides,
-              "Information about this product.pek"
+              "Information about this product.29766837"
             )}
           ></Text>
         </Flex>
         <Badge
+          display="flex"
+          gap="10px"
+          direction="column"
+          width="fit-content"
+          justifyContent="flex-start"
+          alignItems="center"
+          shrink="0"
+          position="relative"
+          borderRadius="99px"
+          backgroundColor="rgba(239,240,240,1)"
           fontSize="12px"
           lineHeight="12px"
-          padding="6px 8px 6px 8px"
-          display="flex"
-          width="fit-content"
-          shrink="0"
           fontFamily="Inter"
           fontWeight="700"
           color="rgba(13,26,38,1)"
           textAlign="left"
-          direction="column"
-          justifyContent="flex-start"
           size="small"
           variation="default"
           children="New!"
@@ -246,15 +253,20 @@ export default function CardG(props) {
             height="36px"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Ratinguhr")}
+            {...getOverrideProps(overrides, "Rating29766840")}
           >
             <Rating
               display="flex"
+              gap="8px"
+              direction="row"
               width="fit-content"
+              alignItems="center"
               shrink="0"
               height="36px"
+              position="relative"
+              padding="0px 0px 0px 0px"
               size="large"
-              {...getOverrideProps(overrides, "Ratingnjh")}
+              {...getOverrideProps(overrides, "Rating29766841")}
             ></Rating>
             <Text
               fontFamily="Inter"
