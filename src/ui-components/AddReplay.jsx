@@ -17,29 +17,12 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
-import Amplify, { Storage } from 'aws-amplify';
-import awsconfig from '../aws-exports';
-Amplify.configure(awsconfig);
-
 export default function AddReplay(props) {
   const { replay, overrides, ...rest } = props;
-  //
-  async function onChange(e) {
-    const file = e.target.files[0];
-    try {
-      await Storage.put(file.name, file, {
-        level: "private",
-        contentType: "image/png", // contentType is optional
-      });
-    } catch (error) {
-      console.log("Error uploading file: ", error);
-    }
-  }
   return (
     <View
-      width="640px"
-      height="570px"
-      overflow="hidden"
+      width="339px"
+      height="491px"
       position="relative"
       padding="0px 0px 0px 0px"
       backgroundColor="rgba(222,226,232,1)"
@@ -52,7 +35,10 @@ export default function AddReplay(props) {
         top="0px"
         left="0px"
         direction="column"
-        width="640px"
+        width="339px"
+        height="491px"
+        justifyContent="space-between"
+        alignItems="center"
         padding="24px 24px 24px 24px"
         {...getOverrideProps(overrides, "Content")}
       >
@@ -113,17 +99,6 @@ export default function AddReplay(props) {
             {...getOverrideProps(overrides, "Add Replay Video")}
           ></Text>
         </Flex>
-        <Divider
-          height="1px"
-          shrink="0"
-          alignSelf="stretch"
-          objectFit="cover"
-          position="relative"
-          padding="0px 0px 0px 0px"
-          size="small"
-          orientation="horizontal"
-          {...getOverrideProps(overrides, "Divider30542883")}
-        ></Divider>
         <Flex
           gap="16px"
           direction="row"
@@ -192,7 +167,6 @@ export default function AddReplay(props) {
             variation="default"
             {...getOverrideProps(overrides, "TextField30542888")}
           ></TextField>
-          <input type="file" onChange={onChange} />,
           <TextField
             display="flex"
             gap="8px"
@@ -254,7 +228,7 @@ export default function AddReplay(props) {
           padding="0px 0px 0px 0px"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Divider30542891")}
+          {...getOverrideProps(overrides, "Divider")}
         ></Divider>
       </Flex>
     </View>

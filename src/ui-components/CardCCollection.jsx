@@ -23,11 +23,12 @@ export default function CardCCollection(props) {
   return (
     <Collection
       type="grid"
+      isPaginated={true}
       searchPlaceholder="Search..."
       templateColumns="1fr 1fr 1fr"
       autoFlow="row"
-      alignItems="stretch"
-      justifyContent="stretch"
+      alignItems="center"
+      justifyContent="center"
       items={items || []}
       {...rest}
       {...getOverrideProps(overrides, "CardCCollection")}
@@ -35,9 +36,9 @@ export default function CardCCollection(props) {
       {(item, index) => (
         <CardC
           replay={item}
-          height="auto"
-          width="auto"
-          margin="10px 10px 10px 10px"
+          // height="auto"
+          // width="auto"
+          margin="5px 5px 5px 5px"
           key={item.id}
           {...(overrideItems && overrideItems({ item, index }))}
         ></CardC>

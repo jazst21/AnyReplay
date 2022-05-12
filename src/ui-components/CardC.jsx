@@ -10,7 +10,7 @@ import {
   getOverrideProps,
   useNavigateAction,
 } from "@aws-amplify/ui-react/internal";
-import { Button, Flex, Image, Rating, Text } from "@aws-amplify/ui-react";
+import { Button, Flex, Image, Text } from "@aws-amplify/ui-react";
 export default function CardC(props) {
   const { replay, overrides, ...rest } = props;
   const buttonOnClick = useNavigateAction({
@@ -21,7 +21,8 @@ export default function CardC(props) {
     <Flex
       gap="0"
       direction="column"
-      width="320px"
+      width="204px"
+      height="249px"
       justifyContent="center"
       position="relative"
       padding="0px 0px 0px 0px"
@@ -30,10 +31,9 @@ export default function CardC(props) {
       {...getOverrideProps(overrides, "CardC")}
     >
       <Image
-        height="408px"
+        width="204px"
+        height="96px"
         shrink="0"
-        alignSelf="stretch"
-        objectFit="cover"
         position="relative"
         padding="0px 0px 0px 0px"
         src={replay?.image_url_replay}
@@ -46,7 +46,7 @@ export default function CardC(props) {
         alignSelf="stretch"
         objectFit="cover"
         position="relative"
-        padding="16px 16px 16px 16px"
+        padding="5px 5px 5px 5px"
         {...getOverrideProps(overrides, "Card Area")}
       >
         <Flex
@@ -61,7 +61,7 @@ export default function CardC(props) {
         >
           <Text
             fontFamily="Inter"
-            fontSize="20px"
+            fontSize="14px"
             fontWeight="400"
             color="rgba(13,26,38,1)"
             lineHeight="20px"
@@ -78,7 +78,7 @@ export default function CardC(props) {
           ></Text>
           <Text
             fontFamily="Inter"
-            fontSize="18px"
+            fontSize="12px"
             fontWeight="400"
             color="rgba(48,64,80,1)"
             lineHeight="24px"
@@ -86,7 +86,7 @@ export default function CardC(props) {
             display="flex"
             direction="column"
             justifyContent="flex-start"
-            letterSpacing="0.03px"
+            letterSpacing="0px"
             shrink="0"
             alignSelf="stretch"
             objectFit="cover"
@@ -97,21 +97,9 @@ export default function CardC(props) {
             {...getOverrideProps(overrides, "Score A : Score B")}
           ></Text>
         </Flex>
-        <Rating
-          display="flex"
-          gap="8px"
-          direction="row"
-          width="174px"
-          alignItems="center"
-          shrink="0"
-          position="relative"
-          padding="0px 0px 0px 0px"
-          size="default"
-          {...getOverrideProps(overrides, "Rating")}
-        ></Rating>
         <Text
           fontFamily="Inter"
-          fontSize="18px"
+          fontSize="14px"
           fontWeight="700"
           color="rgba(13,26,38,1)"
           lineHeight="25px"
@@ -132,13 +120,13 @@ export default function CardC(props) {
           display="flex"
           gap="0"
           direction="row"
+          width="127px"
+          height="33px"
           justifyContent="center"
           alignItems="center"
           shrink="0"
-          alignSelf="stretch"
-          objectFit="cover"
           position="relative"
-          size="large"
+          size="small"
           isDisabled={false}
           variation="primary"
           children="View Replay"
