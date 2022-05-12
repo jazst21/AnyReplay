@@ -26,7 +26,7 @@ function App() {
             <Rect7>
               <Router>
                 <Routes>
-                  <Route exact path="/" element={<CardA/>} />
+                  <Route exact path="/" element={<CardA />} />
                   <Route exact path="/game" element={<CardCCollection/>} />
                   <Route exact path="/replaydetail/*" element={<><CardB /><CommentCollection/></>} />
                   <Route exact path="/schedule" element={<CardBCollection/>} />
