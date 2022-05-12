@@ -1,0 +1,74 @@
+{
+    "Queue": "arn:aws:mediaconvert:ap-southeast-1:640083250120:queues/Default",
+    "UserMetadata": {},
+    "Role": "arn:aws:iam::640083250120:role/service-role/MediaConvert_Default_Role",
+    "Settings": {
+      "TimecodeConfig": {
+        "Source": "ZEROBASED"
+      },
+      "OutputGroups": [
+        {
+          "Name": "Apple HLS",
+          "Outputs": [
+            {
+              "ContainerSettings": {
+                "Container": "M3U8",
+                "M3u8Settings": {}
+              },
+              "VideoDescription": {
+                "CodecSettings": {
+                  "Codec": "H_264",
+                  "H264Settings": {
+                    "MaxBitrate": 2000,
+                    "RateControlMode": "QVBR",
+                    "SceneChangeDetect": "TRANSITION_DETECTION"
+                  }
+                }
+              },
+              "AudioDescriptions": [
+                {
+                  "CodecSettings": {
+                    "Codec": "AAC",
+                    "AacSettings": {
+                      "Bitrate": 96000,
+                      "CodingMode": "CODING_MODE_2_0",
+                      "SampleRate": 48000
+                    }
+                  }
+                }
+              ],
+              "OutputSettings": {
+                "HlsSettings": {}
+              },
+              "NameModifier": "transcoded1"
+            }
+          ],
+          "OutputGroupSettings": {
+            "Type": "HLS_GROUP_SETTINGS",
+            "HlsGroupSettings": {
+              "SegmentLength": 10,
+              "Destination": "s3://anyplay-video/",
+              "MinSegmentLength": 0
+            }
+          }
+        }
+      ],
+      "Inputs": [
+        {
+          "AudioSelectors": {
+            "Audio Selector 1": {
+              "DefaultSelection": "DEFAULT"
+            }
+          },
+          "VideoSelector": {},
+          "TimecodeSource": "ZEROBASED",
+          "FileInput": "s3://anyplay-raw/video1.mp4"
+        }
+      ]
+    },
+    "AccelerationSettings": {
+      "Mode": "DISABLED"
+    },
+    "StatusUpdateInterval": "SECONDS_60",
+    "Priority": 0
+  }

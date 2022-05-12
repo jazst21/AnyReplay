@@ -4,14 +4,13 @@
  * Any changes to this file will be overwritten when running amplify pull. *
  **************************************************************************/
 
-/* eslint-disable */
 import React from "react";
-import { CommentCollection,CardA,CardB, CardBCollection, CardCCollection, NavBar } from '../src/ui-components';
-
-export default function Combined1(props) {
-  return (
-    <CardC/>,
-    <CommentCollection/>
-  );
-};
-
+import { Replay } from "../models";
+import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
+import { FlexProps } from "@aws-amplify/ui-react";
+export declare type AddReplay2Props = React.PropsWithChildren<Partial<FlexProps> & {
+    replay?: Replay;
+} & {
+    overrides?: EscapeHatchProps | undefined | null;
+}>;
+export default function AddReplay2(props: AddReplay2Props): React.ReactElement;
