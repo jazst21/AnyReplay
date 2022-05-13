@@ -17,32 +17,26 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
-import Amplify, { Storage } from 'aws-amplify';
-import awsconfig from '../aws-exports';
-Amplify.configure(awsconfig);
-
-export default function AddReplay(props) {
-  const { replay, overrides, ...rest } = props;
+export default function EditProfile(props) {
+  const { overrides, ...rest } = props;
   return (
-    <View
-      width="339px"
-      height="491px"
+    <Flex
+      gap="16px"
+      direction="column"
+      width="640px"
       position="relative"
       padding="0px 0px 0px 0px"
-      backgroundColor="rgba(222,226,232,1)"
+      backgroundColor="rgba(255,255,255,1)"
       {...rest}
-      {...getOverrideProps(overrides, "AddReplay")}
+      {...getOverrideProps(overrides, "EditProfile")}
     >
       <Flex
         gap="24px"
-        position="absolute"
-        top="0px"
-        left="0px"
         direction="column"
-        width="339px"
-        height="491px"
-        justifyContent="space-between"
-        alignItems="center"
+        shrink="0"
+        alignSelf="stretch"
+        objectFit="cover"
+        position="relative"
         padding="24px 24px 24px 24px"
         {...getOverrideProps(overrides, "Content")}
       >
@@ -55,7 +49,7 @@ export default function AddReplay(props) {
           objectFit="cover"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Edit Profile")}
+          {...getOverrideProps(overrides, "Edit Profile29766913")}
         >
           <View
             width="24px"
@@ -99,10 +93,21 @@ export default function AddReplay(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="Add Replay Video"
-            {...getOverrideProps(overrides, "Add Replay Video")}
+            children="Edit Profile"
+            {...getOverrideProps(overrides, "Edit Profile29766916")}
           ></Text>
         </Flex>
+        <Divider
+          height="1px"
+          shrink="0"
+          alignSelf="stretch"
+          objectFit="cover"
+          position="relative"
+          padding="0px 0px 0px 0px"
+          size="small"
+          orientation="horizontal"
+          {...getOverrideProps(overrides, "Divider29766917")}
+        ></Divider>
         <Flex
           gap="16px"
           direction="row"
@@ -121,7 +126,6 @@ export default function AddReplay(props) {
             position="relative"
             borderRadius="160px"
             padding="0px 0px 0px 0px"
-            src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
             {...getOverrideProps(overrides, "image")}
           ></Image>
           <Text
@@ -139,8 +143,8 @@ export default function AddReplay(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="Upload new Video URL"
-            {...getOverrideProps(overrides, "Upload new Video URL")}
+            children="Upload New Image"
+            {...getOverrideProps(overrides, "Upload New Image")}
           ></Text>
         </Flex>
         <Flex
@@ -163,13 +167,13 @@ export default function AddReplay(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            label="Team A"
+            label="name"
             placeholder="John Doe"
             size="default"
             isDisabled={false}
             labelHidden={false}
             variation="default"
-            {...getOverrideProps(overrides, "TextField30542888")}
+            {...getOverrideProps(overrides, "TextField29766922")}
           ></TextField>
           <TextField
             display="flex"
@@ -181,13 +185,13 @@ export default function AddReplay(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            label="Team B"
+            label="location"
             placeholder="Seattle, WA"
             size="default"
             isDisabled={false}
             labelHidden={false}
             variation="default"
-            {...getOverrideProps(overrides, "TextField30542889")}
+            {...getOverrideProps(overrides, "TextField29766923")}
           ></TextField>
           <TextField
             display="flex"
@@ -199,42 +203,14 @@ export default function AddReplay(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            label="Video Replay"
+            label="email"
             placeholder="john.doe@awsamplify.com"
             size="default"
             isDisabled={false}
             labelHidden={false}
             variation="default"
-            {...getOverrideProps(overrides, "TextField30542890")}
+            {...getOverrideProps(overrides, "TextField29766924")}
           ></TextField>
-          {/* <input type={"file"} /> */}
-          <Button
-            display="flex"
-            gap="0"
-            direction="row"
-            width="fit-content"
-            justifyContent="center"
-            alignItems="center"
-            shrink="0"
-            position="relative"
-            size="default"
-            isDisabled={false}
-            variation="primary"
-            children="Save"
-            {...getOverrideProps(overrides, "Button")}
-            onClick={async (e) => {
-              console.log("clicked");
-              const file = e.target.files[0];
-              try {
-                await Storage.put(file.name, file, {
-                  level: "private",
-                  contentType: "image/png", // contentType is optional
-                });
-              } catch (error) {
-                console.log("Error uploading file: ", error);
-              }
-            }}
-          ></Button>
         </Flex>
         <Divider
           height="1px"
@@ -245,9 +221,24 @@ export default function AddReplay(props) {
           padding="0px 0px 0px 0px"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Divider")}
+          {...getOverrideProps(overrides, "Divider29766925")}
         ></Divider>
+        <Button
+          display="flex"
+          gap="0"
+          direction="row"
+          width="fit-content"
+          justifyContent="center"
+          alignItems="center"
+          shrink="0"
+          position="relative"
+          size="default"
+          isDisabled={false}
+          variation="primary"
+          children="Save"
+          {...getOverrideProps(overrides, "Button")}
+        ></Button>
       </Flex>
-    </View>
+    </Flex>
   );
 }

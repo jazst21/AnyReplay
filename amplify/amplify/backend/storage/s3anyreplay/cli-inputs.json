@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3anyreplay",
+  "policyUUID": "334c3456",
+  "bucketName": "s3anyreplay",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
