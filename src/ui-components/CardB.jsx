@@ -22,7 +22,7 @@ export default function CardB(props) {
   const [textFieldValue, setTextFieldValue] = useStateMutationAction("");
   const buttonThreeZeroFiveOneTwoSevenFourSevenOnClick =
     useDataStoreUpdateAction({
-      fields: { rating: "100" },
+      fields: { rating: replay?.rating+1 },
       id: replay?.id,
       model: Replay,
       schema: schema,
